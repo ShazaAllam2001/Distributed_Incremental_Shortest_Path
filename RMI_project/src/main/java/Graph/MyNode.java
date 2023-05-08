@@ -1,11 +1,11 @@
 package Graph;
-
 import java.util.ArrayList;
 
 public class MyNode {
+
     private String name;
-    private ArrayList<String> canGoTo = new ArrayList<>();
-    private ArrayList<String> canGetReachToFrom = new ArrayList<>();
+    private final ArrayList<String> canGoTo = new ArrayList<>();
+    private final ArrayList<String> canGetReachToFrom = new ArrayList<>();
 
     public void setNodeName(String name) {
         this.name = name;
@@ -19,9 +19,7 @@ public class MyNode {
         }
     }
     public void deleteNodeFromCanGoTo(String node) {
-        if (canGoTo.contains(node)) {
-            canGoTo.remove(node);
-        }
+        canGoTo.remove(node);
     }
     public ArrayList<String> getCanGoTo() {
         return this.canGoTo;
@@ -32,12 +30,9 @@ public class MyNode {
         }
     }
     public void deleteNodeFromCanGetReachToFrom(String node) {
-        if (canGetReachToFrom.contains(node)) {
-            canGetReachToFrom.remove(node);
-        }
+        canGetReachToFrom.remove(node);
     }
     public ArrayList<String> getCanGetReachToFrom() {
         return this.canGetReachToFrom;
     }
 }
-
