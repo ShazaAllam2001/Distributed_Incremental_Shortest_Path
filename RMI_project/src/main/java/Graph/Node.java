@@ -4,35 +4,14 @@ import java.util.ArrayList;
 
 public class Node {
     private String name;
-    private int forwardDistance;
-    private int backwardDistance;
     private ArrayList<String> outEdges = new ArrayList<>();
     private ArrayList<String> inEdges = new ArrayList<>();
-
-    Node() {
-        this.forwardDistance = 0;
-        this.backwardDistance = 0;
-    }
 
     public void setNodeName(String name) {
         this.name = name;
     }
     public String getNodeName() {
         return this.name;
-    }
-
-    public void setForwardDistance(int distance) {
-        this.forwardDistance = distance;
-    }
-    public int getForwardDistance() {
-        return this.forwardDistance;
-    }
-
-    public void setBackwardDistance(int distance) {
-        this.backwardDistance = distance;
-    }
-    public int getBackwardDistance() {
-        return this.backwardDistance;
     }
 
     public void addOutEdge(String node) {
