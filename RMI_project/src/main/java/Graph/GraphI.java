@@ -1,9 +1,31 @@
 package Graph;
-import java.rmi.Remote;
-import java.util.ArrayList;
 
-public interface GraphI extends Remote {
+public interface GraphI {
+    /**
+     * add edge from source to destination
+     * @param source starting node name
+     * @param destination ending node name
+     **/
+    void addEdge(String source, String destination);
 
-    String buildTheGraph(ArrayList<String> lines) throws Exception;
-    void newBatch(ArrayList<String> batch) throws Exception;
+    /**
+     * delete edge from source to destination
+     * @param source starting node name
+     * @param destination ending node name
+     **/
+    void deleteEdge(String source, String destination);
+
+    /**
+     * get the shortest path from source to destination using BFS
+     * @param source starting node name
+     * @param destination ending node name
+     **/
+    int getShortestPath1(String source, String destination);
+
+    /**
+     * get the shortest path from source to destination using Bidirectional Search
+     * @param source starting node name
+     * @param destination ending node name
+     **/
+    int getShortestPath2(String source, String destination);
 }
