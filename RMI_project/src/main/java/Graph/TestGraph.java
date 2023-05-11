@@ -13,6 +13,6 @@ public class TestGraph {
         obj.addEdge("4","5");
         obj.addEdge("4","6");
         obj.addEdge("3","6");
-        System.out.println(obj.getShortestPath2("0","5"));
+        System.out.println(obj.BDS("0","5"));
     }
 }

@@ -38,8 +38,8 @@ public class Server {
                     graph.deleteEdge(nodeNames[1],nodeNames[2]);
                 }
                 else if(operation == 'Q') {
-                    System.out.println(graph.getShortestPath1(nodeNames[1],nodeNames[2]));
-                    //System.out.println(graph.getShortestPath2(nodeNames[1],nodeNames[2]));
+                    System.out.println(graph.BFS(nodeNames[1],nodeNames[2]));
+                    //System.out.println(graph.BDS(nodeNames[1],nodeNames[2]));
                 }
             }
         }

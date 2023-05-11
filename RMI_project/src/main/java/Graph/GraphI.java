@@ -20,12 +20,12 @@ public interface GraphI {
      * @param source starting node name
      * @param destination ending node name
      **/
-    int getShortestPath1(String source, String destination);
+    int BFS(String source, String destination);
 
     /**
      * get the shortest path from source to destination using Bidirectional Search
      * @param source starting node name
      * @param destination ending node name
      **/
-    int getShortestPath2(String source, String destination);
+    int BDS(String source, String destination);
 }
