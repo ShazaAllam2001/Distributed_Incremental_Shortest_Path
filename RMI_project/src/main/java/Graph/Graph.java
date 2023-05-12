@@ -1,5 +1,6 @@
 package Graph;
 
+import java.rmi.Remote;
 import java.util.*;
 
 public class Graph implements GraphI {

@@ -1,12 +1,15 @@
 package ServerClientMain;
 
 import Graph.Graph;
+import RMI.ServerRMI;
 
+import java.rmi.AlreadyBoundException;
+import java.rmi.RemoteException;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Server {
-    private Queue<String> batches = new LinkedList<>();
+    /*private Queue<String> batches = new LinkedList<>();
     private Graph graph = new Graph();
 
     public String buildGraph() {
@@ -43,5 +46,10 @@ public class Server {
                 }
             }
         }
+    }*/
+
+    public static void main(String[] args) throws AlreadyBoundException, RemoteException {
+        ServerRMI serverRMI = new ServerRMI();
+
     }
 }
