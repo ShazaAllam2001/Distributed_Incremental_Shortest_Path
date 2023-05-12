@@ -7,7 +7,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class ClientRMI implements GraphI {
+public class ClientRMI {
     private Registry registry;
     private GraphI stub;
 
@@ -16,22 +16,18 @@ public class ClientRMI implements GraphI {
         this.stub = (GraphI) registry.lookup("graph");
     }
 
-    @Override
     public void addEdge(String source, String destination) throws RemoteException {
         stub.addEdge(source, destination);
     }
 
-    @Override
     public void deleteEdge(String source, String destination) throws RemoteException {
         stub.deleteEdge(source, destination);
     }
 
-    @Override
     public int BFS(String source, String destination) throws RemoteException {
         return stub.BFS(source, destination);
     }
 
-    @Override
     public int BDS(String source, String destination) throws RemoteException {
         return stub.BDS(source, destination);
     }

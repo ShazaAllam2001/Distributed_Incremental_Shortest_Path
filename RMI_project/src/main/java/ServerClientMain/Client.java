@@ -4,6 +4,7 @@ import RMI.ClientRMI;
 
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
+import java.util.Scanner;
 
 public class Client {
 
@@ -20,6 +21,16 @@ public class Client {
         clientRMI.addEdge("4","6");
         clientRMI.addEdge("3","6");
         System.out.println(clientRMI.BDS("0","3"));
+        /*Scanner scanner = new Scanner(System.in);
+        String line;
+        while(true) {
+            line = scanner.nextLine();
+            if(line.equals("exit")) {
+                break;
+            }
+
+
+        }*/
 
     }
 }
