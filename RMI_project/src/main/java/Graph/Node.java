@@ -3,16 +3,8 @@ package Graph;
 import java.util.ArrayList;
 
 public class Node {
-    private String name;
-    private ArrayList<String> outEdges = new ArrayList<>();
-    private ArrayList<String> inEdges = new ArrayList<>();
-
-    public void setNodeName(String name) {
-        this.name = name;
-    }
-    public String getNodeName() {
-        return this.name;
-    }
+    private final ArrayList<String> outEdges = new ArrayList<>();
+    private final ArrayList<String> inEdges = new ArrayList<>();
 
     public void addOutEdge(String node) {
         if(!outEdges.contains(node)) {

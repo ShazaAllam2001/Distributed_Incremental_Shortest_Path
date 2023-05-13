@@ -1,24 +1,19 @@
 package Graph;
-
-import java.rmi.Remote;
 import java.util.*;
 
-public class Graph implements GraphI {
-    private HashMap<String, Node> nodes = new HashMap<>();
+public class Graph {
+    private final HashMap<String, Node> nodes = new HashMap<>();
 
-    @Override
     public void addEdge(String source, String destination) {
         Node node = new Node();
         // put source node on hash map
         if(!nodes.containsKey(source)) {
-            node.setNodeName(source);
             nodes.put(source, node);
         }
         if(!source.equals(destination)) {
             node = new Node();
             // put destination node on hash map
             if(!nodes.containsKey(destination)) {
-                node.setNodeName(destination);
                 nodes.put(destination, node);
             }
             // add edges to each node
@@ -31,7 +26,6 @@ public class Graph implements GraphI {
         }
     }
 
-    @Override
     public void deleteEdge(String source, String destination) {
         // delete Edge, then delete node if it became with no edges in or out
         if(nodes.containsKey(source) && nodes.containsKey(destination)) {
@@ -41,7 +35,6 @@ public class Graph implements GraphI {
             if((node.getInEdges().size()==0) && (node.getOutEdges().size()==0)) {
                 nodes.remove(source);
             }
-
             node = nodes.get(destination);
             node.deleteInEdge(source);
             nodes.replace(destination, node);
@@ -51,20 +44,22 @@ public class Graph implements GraphI {
         }
     }
 
-    @Override
-    public int BFS(String source, String destination) {
+    public int findShortestPath(String source, String destination) {
+        return BDS(source, destination);
+        //return BFS(source, destination
+    }
+
+    private int BFS(String source, String destination) {
         if(!nodes.containsKey(source) || !nodes.containsKey(destination)) {
             return -1;
         }
         if(source.equals(destination)) {
             return 0;
         }
-
         HashMap<String, String> myParent = new HashMap<>();
         Queue<String> queue = new LinkedList<>();
         Set<String> visited = new HashSet<>();
         queue.add(source);
-
         Node node;
         while(!queue.isEmpty()) {
             String nodeName = queue.poll();
@@ -90,22 +85,19 @@ public class Graph implements GraphI {
             child = myParent.get(child);
             edgesCount++;
         }
-
         if(edgesCount != 0) {
             return edgesCount;
         }
         return -1;
     }
 
-    @Override
-    public int BDS(String source, String destination) {
+    private int BDS(String source, String destination) {
         if(!nodes.containsKey(source) || !nodes.containsKey(destination)) {
             return -1;
         }
         if(source.equals(destination)) {
             return 0;
         }
-
         HashMap<String, String> myParent = new HashMap<>();
         HashMap<String, String> myChild = new HashMap<>();
         Queue<String> forwardQueue = new LinkedList<>();
@@ -114,7 +106,6 @@ public class Graph implements GraphI {
         ArrayList<String> backwardVisited = new ArrayList<>();
         forwardQueue.add(source);
         backwardQueue.add(destination);
-
         String nodeName, middleNode = "";
         Node node;
         while(!forwardQueue.isEmpty() || !backwardQueue.isEmpty()) {
@@ -135,7 +126,6 @@ public class Graph implements GraphI {
                     }
                 }
             }
-
             if(!backwardQueue.isEmpty()) {
                 nodeName = backwardQueue.remove();
                 if(!backwardVisited.contains(nodeName)) {
@@ -167,7 +157,6 @@ public class Graph implements GraphI {
             parent = myChild.get(parent);
             edgesCount++;
         }
-
         if(edgesCount != 0) {
             return edgesCount;
         }
