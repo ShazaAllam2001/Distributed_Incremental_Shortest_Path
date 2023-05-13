@@ -33,16 +33,21 @@ public class Graph implements GraphI {
 
     @Override
     public void deleteEdge(String source, String destination) {
-        Node node;
-        if(nodes.containsKey(source)) {
-            node = nodes.get(source);
+        // delete Edge, then delete node if it became with no edges in or out
+        if(nodes.containsKey(source) && nodes.containsKey(destination)) {
+            Node node = nodes.get(source);
             node.deleteOutEdge(destination);
             nodes.replace(source, node);
-        }
-        if(nodes.containsKey(destination)) {
+            if((node.getInEdges().size()==0) && (node.getOutEdges().size()==0)) {
+                nodes.remove(source);
+            }
+
             node = nodes.get(destination);
             node.deleteInEdge(source);
             nodes.replace(destination, node);
+            if((node.getInEdges().size()==0) && (node.getOutEdges().size()==0)) {
+                nodes.remove(destination);
+            }
         }
     }
 
