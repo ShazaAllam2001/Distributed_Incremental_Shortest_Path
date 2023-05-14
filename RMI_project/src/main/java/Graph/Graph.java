@@ -1,9 +1,10 @@
 package Graph;
 import java.util.*;
 
-public class Graph {
+public class Graph implements GraphI {
     private final HashMap<String, Node> nodes = new HashMap<>();
 
+    @Override
     public void addEdge(String source, String destination) {
         Node node = new Node();
         // put source node on hash map
@@ -26,6 +27,7 @@ public class Graph {
         }
     }
 
+    @Override
     public void deleteEdge(String source, String destination) {
         // delete Edge, then delete node if it became with no edges in or out
         if(nodes.containsKey(source) && nodes.containsKey(destination)) {
@@ -44,6 +46,7 @@ public class Graph {
         }
     }
 
+    @Override
     public int findShortestPath(String source, String destination) {
         return BDS(source, destination);
         //return BFS(source, destination

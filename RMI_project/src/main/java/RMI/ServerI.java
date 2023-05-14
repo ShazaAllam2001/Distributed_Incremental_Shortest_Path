@@ -1,11 +1,18 @@
 package RMI;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
 
 public interface ServerI extends Remote {
+    String path = "C:\\Users\\Blu-Ray\\Documents\\Distrubted_Incremental_Shortest_Path\\RMI_project\\src\\main\\java\\";
 
-    String buildGraph(ArrayList<String> lines) throws RemoteException;
+    void setInitialized(boolean initialized) throws RemoteException;
 
-    void addBatch(ArrayList<String> batch) throws RemoteException;
+    boolean getInitialized() throws RemoteException;
+
+    String buildGraph(Queue<String> lines) throws RemoteException;
+
+    List<String> processBatch(Queue<String> lines) throws RemoteException;
 }
