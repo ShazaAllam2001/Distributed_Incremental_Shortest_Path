@@ -2,7 +2,12 @@ package Graph;
 import java.util.*;
 
 public class Graph implements GraphI {
-    private final HashMap<String, Node> nodes = new HashMap<>();
+    private HashMap<String, Node> nodes = new HashMap<>();
+
+    @Override
+    public int getNumberOfNodes() {
+        return nodes.size();
+    }
 
     @Override
     public void addEdge(String source, String destination) {

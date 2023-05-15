@@ -5,6 +5,11 @@ import java.rmi.RemoteException;
 
 public interface GraphI extends Remote {
     /**
+     * get the number of nodes in the graph
+     **/
+    int getNumberOfNodes();
+
+    /**
      * add edge from source to destination
      * @param source starting node name
      * @param destination ending node name

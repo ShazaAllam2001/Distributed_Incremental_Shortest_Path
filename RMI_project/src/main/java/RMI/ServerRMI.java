@@ -96,6 +96,7 @@ public class ServerRMI implements ServerI {
                 graphObj.addEdge(nodeNames[1],nodeNames[2]);
                 lock.writeLock().unlock();
                 logger.info("Add Edge request completed successfully");
+                logger.info("Number of nodes: " + graphObj.getNumberOfNodes());
             }
             else if(operation == 'D') {
                 lock.writeLock().lock();
