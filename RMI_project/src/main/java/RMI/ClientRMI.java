@@ -18,22 +18,27 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class ClientRMI {
-    public static final int SLEEP_TIME = 5000;  // sleep for 5 sec
+    public static final int SLEEP_TIME = 4000;  // sleep for 4 sec
+    private int ID;
     private final Registry registry;
     private final ServerI stub;
     private Logger logger;
-    private Properties props;
+    private Properties systemProps;
+    private Properties generatorProps;
     private RequestsGenerator generator;
 
-    public ClientRMI() throws IOException, NotBoundException {
-        System.out.println("Initializing client");
+    public ClientRMI(int threadID) throws IOException, NotBoundException {
+        System.out.println("Initializing Client");
+        this.ID = threadID;
         this.registry = LocateRegistry.getRegistry("localhost", 1099);
         this.stub = (ServerI) registry.lookup("server");
-        this.props = new Properties();
-        props.load(new FileInputStream(ServerI.path + "Configs\\generator.properties"));
-        float pWrite = Float.parseFloat(props.getProperty("pWrite"));
-        int maxNodeID = Integer.parseInt(props.getProperty("maxNodeID"));
+        this.generatorProps = new Properties();
+        generatorProps.load(new FileInputStream(ServerI.path + "Configs\\generator.properties"));
+        float pWrite = Float.parseFloat(generatorProps.getProperty("pWrite"));
+        int maxNodeID = Integer.parseInt(generatorProps.getProperty("maxNodeID"));
         this.generator = new RequestsGenerator(pWrite, maxNodeID);
+        this.systemProps = new Properties();
+        systemProps.load(new FileInputStream(ServerI.path + "Configs\\system.properties"));
         initLogger();
     }
 
@@ -43,6 +48,7 @@ public class ClientRMI {
         System.setProperty("log.directory", dir);
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_hh-mm-ss");
         System.setProperty("current.date.time", dateFormat.format(new Date()));
+        System.setProperty("client.id", "_" + ID);
 
         File directory = new File(dir);
         if(!directory.exists()){
@@ -53,26 +59,27 @@ public class ClientRMI {
         PropertyConfigurator.configure(ServerI.path + "Configs/logs-log4j.properties");
     }
 
-    public void initializeGraph() throws FileNotFoundException, RemoteException, InterruptedException {
-        File input = new File(ServerI.path + "\\RMI\\input_graph.txt");
+    public void initializeGraph(String fileName) throws FileNotFoundException, RemoteException, InterruptedException {
+        File input = new File(ServerI.path + "\\RMI\\" + fileName);
         Scanner scanner = new Scanner(input);
         String line;
         Queue<String> lines = new LinkedList<>();
-        while(true) {
-            line = scanner.nextLine();
-            if(!stub.getInitialized() && line.equals("S")) {
-                System.out.print(stub.buildGraph(lines));
-                Thread.sleep(SLEEP_TIME);
-                stub.setInitialized(true);
-                break;
+        if(!stub.getInitialized()) {
+            while(true) {
+                line = scanner.nextLine();
+                if(!stub.getInitialized() && line.equals("S")) {
+                    System.out.print("Client " + ID + ": " + stub.buildGraph(lines, ID));
+                    Thread.sleep(SLEEP_TIME);
+                    break;
+                }
+                lines.add(line);
             }
-            lines.add(line);
         }
         scanner.close();
     }
 
-    public void runFile() throws FileNotFoundException, RemoteException, InterruptedException {
-        File input = new File(ServerI.path + "input.txt");
+    public void runFile(String fileName) throws FileNotFoundException, RemoteException, InterruptedException {
+        File input = new File(ServerI.path + fileName);
         Scanner scanner = new Scanner(input);
         run(scanner);
     }
@@ -91,22 +98,22 @@ public class ClientRMI {
                 break;
             }
             if(!stub.getInitialized() && line.equals("S")) {
-                System.out.print(stub.buildGraph(lines));
+                System.out.print("Client " + ID + ": " + stub.buildGraph(lines, ID));
                 Thread.sleep(SLEEP_TIME);
                 lines = new LinkedList<>();
-                stub.setInitialized(true);
             }
             if(stub.getInitialized() && line.equals("F")) {
                 logger.info("requests sent: " + lines);
                 long startTime = System.currentTimeMillis();
-                List<String> results = stub.processBatch(lines);
+                List<String> results = stub.processBatch(lines, ID);
                 long responseTime = System.currentTimeMillis() - startTime;
                 for(String result : results) {
-                    System.out.println(result);
+                    System.out.println("Client " + ID + ": " + result);
                 }
+                int numberOfClients = Integer.parseInt(systemProps.getProperty("GSP.numberOfNodes"));
                 logger.info("response: " + results);
                 logger.info("response time: " + responseTime + " ms");
-                logger.info("number of requests per second: " + (lines.size()/responseTime)); // frequency of requests
+                logger.info("number of requests per second: " + (lines.size()*numberOfClients)); // frequency of requests
                 Thread.sleep(SLEEP_TIME);
                 lines = new LinkedList<>();
             }
@@ -115,22 +122,24 @@ public class ClientRMI {
         scanner.close();
     }
 
-    public void runAutoGeneratedBatches(int n) throws RemoteException, InterruptedException {
-        for(int i=0; i<n; i++) {
+    public void runAutoGeneratedBatches(int numOfBatches) throws RemoteException, InterruptedException {
+        for(int i=0; i<numOfBatches; i++) {
+            System.out.println("Client " + ID + ": Batch " + i);
+            logger.info("Client " + ID + ": Batch " + i);
             runAutoGeneratedBatch();
         }
     }
 
     private void runAutoGeneratedBatch() throws RemoteException, InterruptedException {
-        int requestsPerBatch = Integer.parseInt(props.getProperty("requestsPerBatch"));
+        int requestsPerBatch = Integer.parseInt(generatorProps.getProperty("requestsPerBatch"));
         Queue<String> lines = generator.getNRequests(requestsPerBatch);
         if(stub.getInitialized()) {
             logger.info("requests sent: " + lines);
             long startTime = System.currentTimeMillis();
-            List<String> results = stub.processBatch(lines);
+            List<String> results = stub.processBatch(lines, ID);
             long responseTime = System.currentTimeMillis() - startTime;
             for(String result : results) {
-                System.out.println(result);
+                System.out.println("Client " + ID + ": " + result);
             }
             logger.info("response: " + results);
             logger.info("response time: " + responseTime + " ms");
