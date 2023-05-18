@@ -24,17 +24,19 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class ServerRMI implements ServerI {
-    private GraphI graphObj;
+    public static GraphI graphObj;
     private ServerI skeleton;
     private Registry registry;
     private boolean initialized;
-    private ReadWriteLock lockRW;
+    public static ReadWriteLock lockRW;
     private Lock lock;
-    private Logger logger;
+    public static Logger logger;
+    public static List<String> results = new ArrayList<>();
 
     public ServerRMI() throws RemoteException, AlreadyBoundException {
         System.out.println("Initializing Server");
         this.graphObj = new Graph();
+        this.results = new ArrayList<>();
         this.initialized = false;
         this.skeleton = (ServerI) UnicastRemoteObject.exportObject(this, 0);  // change port to configured one
         this.registry = LocateRegistry.createRegistry(1099); // change port to configured one
@@ -87,7 +89,7 @@ public class ServerRMI implements ServerI {
     }
 
     @Override
-    public List<String> processBatch(Queue<String> lines, int clientID) throws RemoteException {
+    public List<String> processBatchUnparalleled(Queue<String> lines, int clientID) throws RemoteException {
         List<String> results = new ArrayList<>();
         String line;
         lock.lock();
@@ -99,24 +101,40 @@ public class ServerRMI implements ServerI {
             char operation = line.charAt(0);
             String[] nodeNames = line.split(" ");
             if(operation == 'A') {
-                //lock.writeLock().lock();
                 graphObj.addEdge(nodeNames[1],nodeNames[2]);
-                //lock.writeLock().unlock();
                 logger.info("Client " + clientID + " : Add Edge " + nodeNames[1] + " -> " + nodeNames[2] + " request completed successfully");
             }
             else if(operation == 'D') {
-                //lock.writeLock().lock();
                 graphObj.deleteEdge(nodeNames[1],nodeNames[2]);
-                //lock.writeLock().unlock();
                 logger.info("Client " + clientID + " : Delete Edge " + nodeNames[1] + " -> " + nodeNames[2] + " request completed successfully");
             }
             else if(operation == 'Q') {
-                //lock.readLock().lock();
                 int shortestPath = graphObj.findShortestPath(nodeNames[1], nodeNames[2]);
-                //lock.readLock().unlock();
                 logger.info("Shortest Path request completed successfully, returning response: " + shortestPath);
                 results.add(String.valueOf(shortestPath));
             }
+        }
+        lock.unlock();
+        return results;
+    }
+
+    public List<String> processBatch(Queue<String> lines, int clientID) throws RemoteException, InterruptedException {
+        this.results = new ArrayList<>();
+        String line;
+        Thread[] operationsThreads = new Thread[lines.size()];
+        lock.lock();
+        System.out.println("Starting new Batch");
+        int i = 0;
+        while(!lines.isEmpty()) {
+            line = lines.poll();
+            System.out.println(line);
+            logger.info("received request: " + line);
+            operationsThreads[i] = new Thread(new ServerThread(line, clientID));
+            operationsThreads[i].start();
+            i++;
+        }
+        for(Thread thread : operationsThreads) {
+            thread.join();
         }
         lock.unlock();
         return results;

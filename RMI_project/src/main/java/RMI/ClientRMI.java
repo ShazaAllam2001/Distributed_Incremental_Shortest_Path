@@ -65,8 +65,7 @@ public class ClientRMI {
         String line;
         Queue<String> lines = new LinkedList<>();
         if(!stub.getInitialized()) {
-            while(true) {
-                line = scanner.nextLine();
+            while((line = scanner.nextLine()) != null) {
                 if(!stub.getInitialized() && line.equals("S")) {
                     System.out.print("Client " + ID + ": " + stub.buildGraph(lines, ID));
                     Thread.sleep(SLEEP_TIME);
@@ -103,7 +102,7 @@ public class ClientRMI {
                 lines = new LinkedList<>();
             }
             if(stub.getInitialized() && line.equals("F")) {
-                logger.info("requests sent: " + lines);
+                logger.info("Client " + ID + ": " + "requests sent: " + lines);
                 long startTime = System.currentTimeMillis();
                 List<String> results = stub.processBatch(lines, ID);
                 long responseTime = System.currentTimeMillis() - startTime;
@@ -111,9 +110,9 @@ public class ClientRMI {
                     System.out.println("Client " + ID + ": " + result);
                 }
                 int numberOfClients = Integer.parseInt(systemProps.getProperty("GSP.numberOfNodes"));
-                logger.info("response: " + results);
-                logger.info("response time: " + responseTime + " ms");
-                logger.info("number of requests per second: " + (lines.size()*numberOfClients)); // frequency of requests
+                logger.info("Client " + ID + ": " + "response: " + results);
+                logger.info("Client " + ID + ": " + "response time: " + responseTime + " ms");
+                logger.info("Client " + ID + ": " + "number of requests per second: " + (lines.size()*numberOfClients)); // frequency of requests
                 Thread.sleep(SLEEP_TIME);
                 lines = new LinkedList<>();
             }
@@ -134,16 +133,18 @@ public class ClientRMI {
         int requestsPerBatch = Integer.parseInt(generatorProps.getProperty("requestsPerBatch"));
         Queue<String> lines = generator.getNRequests(requestsPerBatch);
         if(stub.getInitialized()) {
-            logger.info("requests sent: " + lines);
+            logger.info("Client " + ID + ": " + "requests sent: " + lines);
             long startTime = System.currentTimeMillis();
             List<String> results = stub.processBatch(lines, ID);
+            //List<String> results = stub.processBatchUnparalleled(lines, ID);
             long responseTime = System.currentTimeMillis() - startTime;
             for(String result : results) {
                 System.out.println("Client " + ID + ": " + result);
             }
-            logger.info("response: " + results);
-            logger.info("response time: " + responseTime + " ms");
-            logger.info("number of requests per second: " + (lines.size()/responseTime)); // frequency of requests
+            int numberOfClients = Integer.parseInt(systemProps.getProperty("GSP.numberOfNodes"));
+            logger.info("Client " + ID + ": " + "response: " + results);
+            logger.info("Client " + ID + ": " + "response time: " + responseTime + " ms");
+            logger.info("Client " + ID + ": " + "number of requests per second: " + (lines.size()*numberOfClients)); // frequency of requests
             Thread.sleep(SLEEP_TIME);
         }
     }

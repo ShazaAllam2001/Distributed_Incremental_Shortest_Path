@@ -1,0 +1,50 @@
+2023-05-19 00:48:01,243 (0) - Client 5: Batch 0
+2023-05-19 00:48:01,255 (12) - Client 5: requests sent: [D 8 9, D 5 2, D 2 7, A 7 5, A 3 4, Q 10 3, Q 2 7, A 7 9, Q 4 6, A 1 7]
+2023-05-19 00:48:01,265 (22) - Client 5: response: [-1, 4, 2]
+2023-05-19 00:48:01,272 (29) - Client 5: response time: 9 ms
+2023-05-19 00:48:01,273 (30) - Client 5: number of requests per second: 50
+2023-05-19 00:48:05,276 (4033) - Client 5: Batch 1
+2023-05-19 00:48:05,276 (4033) - Client 5: requests sent: [D 6 2, Q 3 2, D 1 6, Q 3 6, D 4 6, D 9 3, A 10 4, D 4 7, A 3 7, Q 2 8]
+2023-05-19 00:48:12,263 (11020) - Client 5: response: [2, 3, 2]
+2023-05-19 00:48:12,263 (11020) - Client 5: response time: 5 ms
+2023-05-19 00:48:12,263 (11020) - Client 5: number of requests per second: 50
+2023-05-19 00:48:16,263 (15020) - Client 5: Batch 2
+2023-05-19 00:48:16,264 (15021) - Client 5: requests sent: [Q 2 7, Q 9 2, A 8 3, Q 6 9, Q 8 3, Q 7 10, A 3 8, A 1 9, Q 2 8, D 1 2]
+2023-05-19 00:48:16,269 (15026) - Client 5: response: [2, 2, 2, 1, 2, 2]
+2023-05-19 00:48:16,269 (15026) - Client 5: response time: 4 ms
+2023-05-19 00:48:16,269 (15026) - Client 5: number of requests per second: 50
+2023-05-19 00:48:20,270 (19027) - Client 5: Batch 3
+2023-05-19 00:48:20,271 (19028) - Client 5: requests sent: [Q 2 9, A 9 3, Q 5 1, Q 5 7, Q 3 6, Q 8 7, A 2 10, Q 6 4, A 10 5, D 10 7]
+2023-05-19 00:48:20,275 (19032) - Client 5: response: [1, 2, 2, 1, 1, 3]
+2023-05-19 00:48:20,275 (19032) - Client 5: response time: 3 ms
+2023-05-19 00:48:20,275 (19032) - Client 5: number of requests per second: 50
+2023-05-19 00:48:24,275 (23032) - Client 5: Batch 4
+2023-05-19 00:48:24,276 (23033) - Client 5: requests sent: [D 8 9, D 3 10, D 6 10, A 4 6, A 5 10, A 10 5, Q 9 2, A 1 9, A 10 3, Q 3 5]
+2023-05-19 00:48:24,280 (23037) - Client 5: response: [1, 2]
+2023-05-19 00:48:24,280 (23037) - Client 5: response time: 4 ms
+2023-05-19 00:48:24,280 (23037) - Client 5: number of requests per second: 50
+2023-05-19 00:48:28,281 (27038) - Client 5: Batch 5
+2023-05-19 00:48:28,282 (27039) - Client 5: requests sent: [D 6 4, Q 9 10, A 7 8, A 2 1, D 10 6, Q 2 1, Q 3 2, D 10 3, A 6 4, A 2 8]
+2023-05-19 00:48:28,286 (27043) - Client 5: response: [2, 1, 2]
+2023-05-19 00:48:28,286 (27043) - Client 5: response time: 3 ms
+2023-05-19 00:48:28,286 (27043) - Client 5: number of requests per second: 50
+2023-05-19 00:48:32,287 (31044) - Client 5: Batch 6
+2023-05-19 00:48:32,288 (31045) - Client 5: requests sent: [A 10 8, A 5 2, A 9 4, Q 8 2, D 4 10, Q 2 8, Q 4 7, D 8 6, Q 6 9, Q 3 10]
+2023-05-19 00:48:32,292 (31049) - Client 5: response: [1, 1, 3, 2, 2]
+2023-05-19 00:48:32,292 (31049) - Client 5: response time: 4 ms
+2023-05-19 00:48:32,292 (31049) - Client 5: number of requests per second: 50
+2023-05-19 00:48:36,293 (35050) - Client 5: Batch 7
+2023-05-19 00:48:36,294 (35051) - Client 5: requests sent: [Q 3 9, A 2 4, D 1 8, A 3 1, D 10 6, Q 2 8, Q 5 10, Q 4 3, Q 9 3, Q 10 9]
+2023-05-19 00:48:36,298 (35055) - Client 5: response: [2, 1, 1, 2, 1, 1]
+2023-05-19 00:48:36,298 (35055) - Client 5: response time: 3 ms
+2023-05-19 00:48:36,298 (35055) - Client 5: number of requests per second: 50
+2023-05-19 00:48:40,298 (39055) - Client 5: Batch 8
+2023-05-19 00:48:40,299 (39056) - Client 5: requests sent: [Q 6 2, Q 1 9, D 5 4, D 6 2, Q 3 10, Q 4 6, Q 7 2, Q 4 1, A 10 8, Q 5 4]
+2023-05-19 00:48:40,303 (39060) - Client 5: response: [2, 1, 2, 1, 2, 2, 2]
+2023-05-19 00:48:40,303 (39060) - Client 5: response time: 4 ms
+2023-05-19 00:48:40,303 (39060) - Client 5: number of requests per second: 50
+2023-05-19 00:48:44,304 (43061) - Client 5: Batch 9
+2023-05-19 00:48:44,305 (43062) - Client 5: requests sent: [Q 6 7, D 4 8, D 10 3, D 6 10, Q 4 2, Q 9 8, Q 7 6, D 7 3, Q 9 7, Q 7 2]
+2023-05-19 00:48:44,309 (43066) - Client 5: response: [2, 2, 2, 3, 2, 2]
+2023-05-19 00:48:44,309 (43066) - Client 5: response time: 4 ms
+2023-05-19 00:48:44,309 (43066) - Client 5: number of requests per second: 50

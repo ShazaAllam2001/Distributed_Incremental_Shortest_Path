@@ -1,0 +1,1007 @@
+2023-05-19 00:47:47,961 (0) - Initializing Graph
+2023-05-19 00:47:47,970 (9) - Client 1 : Add Edge 1 -> 2 request completed successfully
+2023-05-19 00:47:47,970 (9) - Client 1 : Add Edge 2 -> 3 request completed successfully
+2023-05-19 00:47:47,970 (9) - Client 1 : Add Edge 3 -> 1 request completed successfully
+2023-05-19 00:47:47,970 (9) - Client 1 : Add Edge 4 -> 1 request completed successfully
+2023-05-19 00:47:47,970 (9) - Client 1 : Add Edge 2 -> 4 request completed successfully
+2023-05-19 00:47:47,971 (10) - Graph completed initializing successfully by client 1
+2023-05-19 00:47:52,026 (4065) - received request: D 5 1
+2023-05-19 00:47:52,028 (4067) - received request: Q 10 2
+2023-05-19 00:47:52,028 (4067) - received request: Q 8 10
+2023-05-19 00:47:52,028 (4067) - received request: D 8 1
+2023-05-19 00:47:52,028 (4067) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:52,028 (4067) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:52,029 (4068) - Client 1 : Delete Edge 5 -> 1 request completed successfully
+2023-05-19 00:47:52,028 (4067) - received request: D 10 7
+2023-05-19 00:47:52,029 (4068) - Client 1 : Delete Edge 8 -> 1 request completed successfully
+2023-05-19 00:47:52,029 (4068) - received request: A 7 2
+2023-05-19 00:47:52,029 (4068) - Client 1 : Delete Edge 10 -> 7 request completed successfully
+2023-05-19 00:47:52,029 (4068) - received request: D 9 5
+2023-05-19 00:47:52,029 (4068) - received request: A 3 1
+2023-05-19 00:47:52,030 (4069) - Client 1 : Delete Edge 9 -> 5 request completed successfully
+2023-05-19 00:47:52,030 (4069) - Client 1 : Add Edge 7 -> 2 request completed successfully
+2023-05-19 00:47:52,030 (4069) - received request: Q 9 3
+2023-05-19 00:47:52,030 (4069) - Client 1 : Add Edge 3 -> 1 request completed successfully
+2023-05-19 00:47:52,030 (4069) - received request: D 2 3
+2023-05-19 00:47:52,030 (4069) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:52,030 (4069) - Client 1 : Delete Edge 2 -> 3 request completed successfully
+2023-05-19 00:47:53,720 (5759) - received request: Q 7 2
+2023-05-19 00:47:53,720 (5759) - received request: Q 3 2
+2023-05-19 00:47:53,721 (5760) - received request: A 9 6
+2023-05-19 00:47:53,721 (5760) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:47:53,721 (5760) - received request: Q 9 4
+2023-05-19 00:47:53,721 (5760) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:53,721 (5760) - received request: Q 6 7
+2023-05-19 00:47:53,721 (5760) - Client 2 : Add Edge 9 -> 6 request completed successfully
+2023-05-19 00:47:53,722 (5761) - received request: A 3 9
+2023-05-19 00:47:53,722 (5761) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:53,722 (5761) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:53,722 (5761) - received request: Q 8 3
+2023-05-19 00:47:53,722 (5761) - Client 2 : Add Edge 3 -> 9 request completed successfully
+2023-05-19 00:47:53,722 (5761) - received request: Q 4 9
+2023-05-19 00:47:53,723 (5762) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:53,723 (5762) - received request: Q 1 9
+2023-05-19 00:47:53,723 (5762) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:53,723 (5762) - received request: A 9 10
+2023-05-19 00:47:53,723 (5762) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:53,724 (5763) - Client 2 : Add Edge 9 -> 10 request completed successfully
+2023-05-19 00:47:56,101 (8140) - received request: D 10 2
+2023-05-19 00:47:56,102 (8141) - received request: Q 5 2
+2023-05-19 00:47:56,102 (8141) - Client 1 : Delete Edge 10 -> 2 request completed successfully
+2023-05-19 00:47:56,102 (8141) - received request: D 3 5
+2023-05-19 00:47:56,102 (8141) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,102 (8141) - received request: A 9 1
+2023-05-19 00:47:56,102 (8141) - Client 1 : Delete Edge 3 -> 5 request completed successfully
+2023-05-19 00:47:56,102 (8141) - received request: D 5 1
+2023-05-19 00:47:56,103 (8142) - Client 1 : Add Edge 9 -> 1 request completed successfully
+2023-05-19 00:47:56,103 (8142) - received request: Q 7 3
+2023-05-19 00:47:56,103 (8142) - Client 1 : Delete Edge 5 -> 1 request completed successfully
+2023-05-19 00:47:56,103 (8142) - received request: Q 6 7
+2023-05-19 00:47:56,103 (8142) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,103 (8142) - received request: D 1 6
+2023-05-19 00:47:56,104 (8143) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,104 (8143) - received request: Q 6 1
+2023-05-19 00:47:56,104 (8143) - Client 1 : Delete Edge 1 -> 6 request completed successfully
+2023-05-19 00:47:56,104 (8143) - received request: A 5 1
+2023-05-19 00:47:56,104 (8143) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,105 (8144) - Client 1 : Add Edge 5 -> 1 request completed successfully
+2023-05-19 00:47:56,407 (8446) - received request: Q 9 7
+2023-05-19 00:47:56,408 (8447) - received request: A 1 10
+2023-05-19 00:47:56,408 (8447) - received request: D 4 2
+2023-05-19 00:47:56,408 (8447) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,408 (8447) - Client 3 : Add Edge 1 -> 10 request completed successfully
+2023-05-19 00:47:56,408 (8447) - received request: Q 6 2
+2023-05-19 00:47:56,408 (8447) - Client 3 : Delete Edge 4 -> 2 request completed successfully
+2023-05-19 00:47:56,408 (8447) - received request: D 9 3
+2023-05-19 00:47:56,409 (8448) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,409 (8448) - received request: Q 4 8
+2023-05-19 00:47:56,409 (8448) - received request: D 10 9
+2023-05-19 00:47:56,409 (8448) - Client 3 : Delete Edge 9 -> 3 request completed successfully
+2023-05-19 00:47:56,410 (8449) - received request: Q 7 4
+2023-05-19 00:47:56,410 (8449) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,410 (8449) - received request: Q 10 2
+2023-05-19 00:47:56,410 (8449) - received request: Q 1 7
+2023-05-19 00:47:56,410 (8449) - Client 3 : Delete Edge 10 -> 9 request completed successfully
+2023-05-19 00:47:56,410 (8449) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:56,411 (8450) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:56,411 (8450) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:57,744 (9783) - received request: A 5 6
+2023-05-19 00:47:57,745 (9784) - received request: Q 2 8
+2023-05-19 00:47:57,745 (9784) - received request: A 2 5
+2023-05-19 00:47:57,745 (9784) - received request: A 1 3
+2023-05-19 00:47:57,752 (9791) - Client 2 : Add Edge 2 -> 5 request completed successfully
+2023-05-19 00:47:57,752 (9791) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:57,752 (9791) - Client 2 : Add Edge 5 -> 6 request completed successfully
+2023-05-19 00:47:57,753 (9792) - received request: A 5 7
+2023-05-19 00:47:57,753 (9792) - received request: Q 5 6
+2023-05-19 00:47:57,753 (9792) - Client 2 : Add Edge 1 -> 3 request completed successfully
+2023-05-19 00:47:57,753 (9792) - Client 2 : Add Edge 5 -> 7 request completed successfully
+2023-05-19 00:47:57,753 (9792) - received request: Q 2 7
+2023-05-19 00:47:57,753 (9792) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:47:57,753 (9792) - received request: A 3 8
+2023-05-19 00:47:57,754 (9793) - received request: A 8 9
+2023-05-19 00:47:57,754 (9793) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:57,754 (9793) - Client 2 : Add Edge 3 -> 8 request completed successfully
+2023-05-19 00:47:57,754 (9793) - received request: D 5 4
+2023-05-19 00:47:57,754 (9793) - Client 2 : Add Edge 8 -> 9 request completed successfully
+2023-05-19 00:47:57,754 (9793) - Client 2 : Delete Edge 5 -> 4 request completed successfully
+2023-05-19 00:47:58,990 (11029) - received request: Q 9 4
+2023-05-19 00:47:58,990 (11029) - received request: Q 9 2
+2023-05-19 00:47:58,990 (11029) - received request: A 6 10
+2023-05-19 00:47:58,990 (11029) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:47:58,990 (11029) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:58,990 (11029) - received request: Q 2 1
+2023-05-19 00:47:58,991 (11030) - received request: Q 10 4
+2023-05-19 00:47:58,991 (11030) - Client 4 : Add Edge 6 -> 10 request completed successfully
+2023-05-19 00:47:58,991 (11030) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:58,991 (11030) - received request: D 9 6
+2023-05-19 00:47:58,991 (11030) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:58,991 (11030) - received request: Q 8 1
+2023-05-19 00:47:58,992 (11031) - Client 4 : Delete Edge 9 -> 6 request completed successfully
+2023-05-19 00:47:58,992 (11031) - received request: Q 6 9
+2023-05-19 00:47:58,992 (11031) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:47:58,992 (11031) - received request: A 9 1
+2023-05-19 00:47:58,992 (11031) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:47:58,992 (11031) - received request: Q 6 10
+2023-05-19 00:47:58,992 (11031) - Client 4 : Add Edge 9 -> 1 request completed successfully
+2023-05-19 00:47:58,993 (11032) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:00,109 (12148) - received request: Q 10 3
+2023-05-19 00:48:00,109 (12148) - received request: Q 7 9
+2023-05-19 00:48:00,109 (12148) - received request: A 8 7
+2023-05-19 00:48:00,109 (12148) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:48:00,110 (12149) - Shortest Path request completed successfully, returning response: 5
+2023-05-19 00:48:00,110 (12149) - received request: A 7 1
+2023-05-19 00:48:00,110 (12149) - Client 1 : Add Edge 8 -> 7 request completed successfully
+2023-05-19 00:48:00,110 (12149) - received request: Q 9 7
+2023-05-19 00:48:00,110 (12149) - received request: D 7 4
+2023-05-19 00:48:00,110 (12149) - Client 1 : Add Edge 7 -> 1 request completed successfully
+2023-05-19 00:48:00,111 (12150) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:00,111 (12150) - received request: Q 10 4
+2023-05-19 00:48:00,111 (12150) - Client 1 : Delete Edge 7 -> 4 request completed successfully
+2023-05-19 00:48:00,111 (12150) - received request: Q 3 6
+2023-05-19 00:48:00,111 (12150) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:48:00,111 (12150) - received request: A 7 6
+2023-05-19 00:48:00,111 (12150) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:00,111 (12150) - received request: A 2 9
+2023-05-19 00:48:00,112 (12151) - Client 1 : Add Edge 7 -> 6 request completed successfully
+2023-05-19 00:48:00,112 (12151) - Client 1 : Add Edge 2 -> 9 request completed successfully
+2023-05-19 00:48:00,425 (12464) - received request: Q 8 5
+2023-05-19 00:48:00,426 (12465) - received request: D 1 3
+2023-05-19 00:48:00,426 (12465) - received request: A 10 8
+2023-05-19 00:48:00,426 (12465) - received request: Q 10 7
+2023-05-19 00:48:00,426 (12465) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:00,426 (12465) - Client 3 : Delete Edge 1 -> 3 request completed successfully
+2023-05-19 00:48:00,426 (12465) - received request: Q 8 3
+2023-05-19 00:48:00,426 (12465) - Client 3 : Add Edge 10 -> 8 request completed successfully
+2023-05-19 00:48:00,427 (12466) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:00,427 (12466) - received request: D 7 6
+2023-05-19 00:48:00,427 (12466) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:48:00,427 (12466) - received request: A 10 7
+2023-05-19 00:48:00,427 (12466) - Client 3 : Delete Edge 7 -> 6 request completed successfully
+2023-05-19 00:48:00,427 (12466) - received request: A 2 1
+2023-05-19 00:48:00,428 (12467) - Client 3 : Add Edge 10 -> 7 request completed successfully
+2023-05-19 00:48:00,428 (12467) - received request: D 6 9
+2023-05-19 00:48:00,428 (12467) - Client 3 : Add Edge 2 -> 1 request completed successfully
+2023-05-19 00:48:00,428 (12467) - received request: D 7 8
+2023-05-19 00:48:00,428 (12467) - Client 3 : Delete Edge 6 -> 9 request completed successfully
+2023-05-19 00:48:00,429 (12468) - Client 3 : Delete Edge 7 -> 8 request completed successfully
+2023-05-19 00:48:01,259 (13298) - received request: D 8 9
+2023-05-19 00:48:01,259 (13298) - received request: D 5 2
+2023-05-19 00:48:01,260 (13299) - received request: D 2 7
+2023-05-19 00:48:01,260 (13299) - Client 5 : Delete Edge 8 -> 9 request completed successfully
+2023-05-19 00:48:01,260 (13299) - Client 5 : Delete Edge 5 -> 2 request completed successfully
+2023-05-19 00:48:01,260 (13299) - received request: A 7 5
+2023-05-19 00:48:01,260 (13299) - Client 5 : Delete Edge 2 -> 7 request completed successfully
+2023-05-19 00:48:01,260 (13299) - received request: A 3 4
+2023-05-19 00:48:01,260 (13299) - received request: Q 10 3
+2023-05-19 00:48:01,261 (13300) - received request: Q 2 7
+2023-05-19 00:48:01,261 (13300) - received request: A 7 9
+2023-05-19 00:48:01,261 (13300) - received request: Q 4 6
+2023-05-19 00:48:01,261 (13300) - Client 5 : Add Edge 7 -> 5 request completed successfully
+2023-05-19 00:48:01,261 (13300) - received request: A 1 7
+2023-05-19 00:48:01,262 (13301) - Client 5 : Add Edge 3 -> 4 request completed successfully
+2023-05-19 00:48:01,262 (13301) - Shortest Path request completed successfully, returning response: -1
+2023-05-19 00:48:01,262 (13301) - Client 5 : Add Edge 7 -> 9 request completed successfully
+2023-05-19 00:48:01,262 (13301) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:01,263 (13302) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:01,263 (13302) - Client 5 : Add Edge 1 -> 7 request completed successfully
+2023-05-19 00:48:01,760 (13799) - received request: A 7 6
+2023-05-19 00:48:01,761 (13800) - received request: Q 5 2
+2023-05-19 00:48:01,761 (13800) - Client 2 : Add Edge 7 -> 6 request completed successfully
+2023-05-19 00:48:01,761 (13800) - received request: Q 8 7
+2023-05-19 00:48:01,761 (13800) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:01,761 (13800) - received request: Q 2 6
+2023-05-19 00:48:01,762 (13801) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:01,762 (13801) - received request: D 8 9
+2023-05-19 00:48:01,762 (13801) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:01,762 (13801) - received request: Q 3 6
+2023-05-19 00:48:01,762 (13801) - Client 2 : Delete Edge 8 -> 9 request completed successfully
+2023-05-19 00:48:01,762 (13801) - received request: Q 1 4
+2023-05-19 00:48:01,762 (13801) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:01,763 (13802) - received request: A 5 1
+2023-05-19 00:48:01,763 (13802) - received request: D 6 9
+2023-05-19 00:48:01,763 (13802) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:01,763 (13802) - Client 2 : Add Edge 5 -> 1 request completed successfully
+2023-05-19 00:48:01,763 (13802) - received request: Q 1 9
+2023-05-19 00:48:01,763 (13802) - Client 2 : Delete Edge 6 -> 9 request completed successfully
+2023-05-19 00:48:01,764 (13803) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:04,116 (16155) - received request: D 3 6
+2023-05-19 00:48:04,116 (16155) - received request: Q 9 2
+2023-05-19 00:48:04,116 (16155) - received request: A 6 2
+2023-05-19 00:48:04,116 (16155) - Client 1 : Delete Edge 3 -> 6 request completed successfully
+2023-05-19 00:48:04,117 (16156) - received request: D 10 1
+2023-05-19 00:48:04,117 (16156) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:04,117 (16156) - received request: Q 7 10
+2023-05-19 00:48:04,117 (16156) - Client 1 : Add Edge 6 -> 2 request completed successfully
+2023-05-19 00:48:04,117 (16156) - received request: A 1 4
+2023-05-19 00:48:04,117 (16156) - Client 1 : Delete Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:04,117 (16156) - received request: A 9 2
+2023-05-19 00:48:04,117 (16156) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:04,117 (16156) - Client 1 : Add Edge 1 -> 4 request completed successfully
+2023-05-19 00:48:04,117 (16156) - received request: D 9 10
+2023-05-19 00:48:04,118 (16157) - Client 1 : Add Edge 9 -> 2 request completed successfully
+2023-05-19 00:48:04,118 (16157) - received request: Q 7 2
+2023-05-19 00:48:04,118 (16157) - Client 1 : Delete Edge 9 -> 10 request completed successfully
+2023-05-19 00:48:04,118 (16157) - received request: A 5 1
+2023-05-19 00:48:04,118 (16157) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:04,118 (16157) - Client 1 : Add Edge 5 -> 1 request completed successfully
+2023-05-19 00:48:04,432 (16471) - received request: D 8 4
+2023-05-19 00:48:04,432 (16471) - received request: Q 9 5
+2023-05-19 00:48:04,432 (16471) - received request: Q 6 1
+2023-05-19 00:48:04,432 (16471) - Client 3 : Delete Edge 8 -> 4 request completed successfully
+2023-05-19 00:48:04,432 (16471) - received request: A 4 5
+2023-05-19 00:48:04,432 (16471) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:04,432 (16471) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:04,433 (16472) - received request: D 5 7
+2023-05-19 00:48:04,433 (16472) - Client 3 : Add Edge 4 -> 5 request completed successfully
+2023-05-19 00:48:04,433 (16472) - received request: Q 6 10
+2023-05-19 00:48:04,433 (16472) - Client 3 : Delete Edge 5 -> 7 request completed successfully
+2023-05-19 00:48:04,433 (16472) - received request: D 4 10
+2023-05-19 00:48:04,433 (16472) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:04,433 (16472) - received request: A 10 3
+2023-05-19 00:48:04,434 (16473) - Client 3 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:04,434 (16473) - received request: D 5 7
+2023-05-19 00:48:04,434 (16473) - Client 3 : Add Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:04,434 (16473) - received request: D 6 4
+2023-05-19 00:48:04,434 (16473) - Client 3 : Delete Edge 5 -> 7 request completed successfully
+2023-05-19 00:48:04,434 (16473) - Client 3 : Delete Edge 6 -> 4 request completed successfully
+2023-05-19 00:48:05,768 (17807) - received request: Q 7 10
+2023-05-19 00:48:05,768 (17807) - received request: Q 3 6
+2023-05-19 00:48:05,768 (17807) - received request: Q 9 3
+2023-05-19 00:48:05,769 (17808) - received request: D 7 5
+2023-05-19 00:48:05,769 (17808) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:05,769 (17808) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:05,769 (17808) - received request: Q 8 6
+2023-05-19 00:48:05,769 (17808) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:05,769 (17808) - Client 2 : Delete Edge 7 -> 5 request completed successfully
+2023-05-19 00:48:05,769 (17808) - received request: Q 4 8
+2023-05-19 00:48:05,769 (17808) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:05,769 (17808) - received request: Q 3 2
+2023-05-19 00:48:05,770 (17809) - received request: Q 1 6
+2023-05-19 00:48:05,770 (17809) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:05,770 (17809) - received request: Q 1 10
+2023-05-19 00:48:05,770 (17809) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:05,770 (17809) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:05,770 (17809) - received request: D 9 10
+2023-05-19 00:48:05,770 (17809) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:05,771 (17810) - Client 2 : Delete Edge 9 -> 10 request completed successfully
+2023-05-19 00:48:08,122 (20161) - received request: Q 5 7
+2023-05-19 00:48:08,122 (20161) - received request: A 5 9
+2023-05-19 00:48:08,122 (20161) - received request: A 4 2
+2023-05-19 00:48:08,122 (20161) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:08,123 (20162) - received request: Q 9 1
+2023-05-19 00:48:08,123 (20162) - Client 1 : Add Edge 5 -> 9 request completed successfully
+2023-05-19 00:48:08,123 (20162) - received request: A 5 3
+2023-05-19 00:48:08,123 (20162) - Client 1 : Add Edge 4 -> 2 request completed successfully
+2023-05-19 00:48:08,123 (20162) - received request: D 5 6
+2023-05-19 00:48:08,123 (20162) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:08,123 (20162) - Client 1 : Add Edge 5 -> 3 request completed successfully
+2023-05-19 00:48:08,123 (20162) - received request: A 1 7
+2023-05-19 00:48:08,123 (20162) - Client 1 : Delete Edge 5 -> 6 request completed successfully
+2023-05-19 00:48:08,124 (20163) - received request: A 10 9
+2023-05-19 00:48:08,124 (20163) - received request: D 1 10
+2023-05-19 00:48:08,124 (20163) - Client 1 : Add Edge 1 -> 7 request completed successfully
+2023-05-19 00:48:08,124 (20163) - received request: Q 5 3
+2023-05-19 00:48:08,124 (20163) - Client 1 : Add Edge 10 -> 9 request completed successfully
+2023-05-19 00:48:08,124 (20163) - Client 1 : Delete Edge 1 -> 10 request completed successfully
+2023-05-19 00:48:08,124 (20163) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:08,439 (20478) - received request: D 10 4
+2023-05-19 00:48:08,439 (20478) - received request: D 9 8
+2023-05-19 00:48:08,440 (20479) - received request: D 10 7
+2023-05-19 00:48:08,440 (20479) - Client 3 : Delete Edge 10 -> 4 request completed successfully
+2023-05-19 00:48:08,440 (20479) - received request: Q 6 4
+2023-05-19 00:48:08,440 (20479) - Client 3 : Delete Edge 9 -> 8 request completed successfully
+2023-05-19 00:48:08,440 (20479) - received request: Q 8 10
+2023-05-19 00:48:08,440 (20479) - Client 3 : Delete Edge 10 -> 7 request completed successfully
+2023-05-19 00:48:08,440 (20479) - received request: Q 10 5
+2023-05-19 00:48:08,440 (20479) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:08,440 (20479) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:08,440 (20479) - received request: Q 9 10
+2023-05-19 00:48:08,441 (20480) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:08,441 (20480) - received request: Q 8 4
+2023-05-19 00:48:08,441 (20480) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:08,441 (20480) - received request: D 10 6
+2023-05-19 00:48:08,441 (20480) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:08,441 (20480) - received request: A 10 1
+2023-05-19 00:48:08,441 (20480) - Client 3 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:08,442 (20481) - Client 3 : Add Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:09,775 (21814) - received request: Q 2 10
+2023-05-19 00:48:09,775 (21814) - received request: Q 4 3
+2023-05-19 00:48:09,775 (21814) - received request: D 3 7
+2023-05-19 00:48:09,775 (21814) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:09,775 (21814) - received request: Q 4 1
+2023-05-19 00:48:09,776 (21815) - received request: A 1 5
+2023-05-19 00:48:09,776 (21815) - received request: D 7 1
+2023-05-19 00:48:09,776 (21815) - received request: Q 7 9
+2023-05-19 00:48:09,776 (21815) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:09,776 (21815) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:09,776 (21815) - received request: Q 8 4
+2023-05-19 00:48:09,776 (21815) - Client 2 : Delete Edge 3 -> 7 request completed successfully
+2023-05-19 00:48:09,777 (21816) - received request: Q 9 6
+2023-05-19 00:48:09,777 (21816) - received request: Q 7 5
+2023-05-19 00:48:09,777 (21816) - Client 2 : Delete Edge 7 -> 1 request completed successfully
+2023-05-19 00:48:09,777 (21816) - Client 2 : Add Edge 1 -> 5 request completed successfully
+2023-05-19 00:48:09,777 (21816) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:09,777 (21816) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:09,778 (21817) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:09,778 (21817) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:11,743 (23782) - received request: Q 2 6
+2023-05-19 00:48:11,743 (23782) - received request: Q 2 3
+2023-05-19 00:48:11,743 (23782) - received request: A 6 7
+2023-05-19 00:48:11,743 (23782) - received request: A 2 9
+2023-05-19 00:48:11,744 (23783) - received request: D 9 2
+2023-05-19 00:48:11,744 (23783) - received request: A 4 5
+2023-05-19 00:48:11,744 (23783) - received request: Q 9 6
+2023-05-19 00:48:11,744 (23783) - received request: A 3 9
+2023-05-19 00:48:11,744 (23783) - received request: Q 4 2
+2023-05-19 00:48:11,745 (23784) - received request: Q 5 10
+2023-05-19 00:48:11,746 (23785) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:11,746 (23785) - Client 4 : Delete Edge 9 -> 2 request completed successfully
+2023-05-19 00:48:11,746 (23785) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:11,747 (23786) - Client 4 : Add Edge 4 -> 5 request completed successfully
+2023-05-19 00:48:11,747 (23786) - Client 4 : Add Edge 2 -> 9 request completed successfully
+2023-05-19 00:48:11,748 (23787) - Client 4 : Add Edge 6 -> 7 request completed successfully
+2023-05-19 00:48:11,748 (23787) - Shortest Path request completed successfully, returning response: 4
+2023-05-19 00:48:11,748 (23787) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:11,749 (23788) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:11,749 (23788) - Client 4 : Add Edge 3 -> 9 request completed successfully
+2023-05-19 00:48:12,127 (24166) - received request: Q 10 1
+2023-05-19 00:48:12,127 (24166) - received request: Q 5 8
+2023-05-19 00:48:12,127 (24166) - received request: A 3 1
+2023-05-19 00:48:12,127 (24166) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:12,127 (24166) - received request: D 6 7
+2023-05-19 00:48:12,128 (24167) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,128 (24167) - received request: Q 5 6
+2023-05-19 00:48:12,128 (24167) - Client 1 : Add Edge 3 -> 1 request completed successfully
+2023-05-19 00:48:12,128 (24167) - received request: A 5 8
+2023-05-19 00:48:12,128 (24167) - Client 1 : Delete Edge 6 -> 7 request completed successfully
+2023-05-19 00:48:12,128 (24167) - received request: A 2 1
+2023-05-19 00:48:12,128 (24167) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:12,128 (24167) - received request: D 1 4
+2023-05-19 00:48:12,128 (24167) - Client 1 : Add Edge 5 -> 8 request completed successfully
+2023-05-19 00:48:12,128 (24167) - Client 1 : Add Edge 2 -> 1 request completed successfully
+2023-05-19 00:48:12,128 (24167) - received request: D 10 5
+2023-05-19 00:48:12,129 (24168) - Client 1 : Delete Edge 1 -> 4 request completed successfully
+2023-05-19 00:48:12,129 (24168) - received request: A 6 1
+2023-05-19 00:48:12,129 (24168) - Client 1 : Delete Edge 10 -> 5 request completed successfully
+2023-05-19 00:48:12,129 (24168) - Client 1 : Add Edge 6 -> 1 request completed successfully
+2023-05-19 00:48:12,259 (24298) - received request: D 6 2
+2023-05-19 00:48:12,260 (24299) - received request: Q 3 2
+2023-05-19 00:48:12,260 (24299) - received request: D 1 6
+2023-05-19 00:48:12,260 (24299) - Client 5 : Delete Edge 6 -> 2 request completed successfully
+2023-05-19 00:48:12,260 (24299) - received request: Q 3 6
+2023-05-19 00:48:12,260 (24299) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,260 (24299) - Client 5 : Delete Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:12,260 (24299) - received request: D 4 6
+2023-05-19 00:48:12,260 (24299) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:12,261 (24300) - received request: D 9 3
+2023-05-19 00:48:12,261 (24300) - received request: A 10 4
+2023-05-19 00:48:12,261 (24300) - Client 5 : Delete Edge 4 -> 6 request completed successfully
+2023-05-19 00:48:12,261 (24300) - Client 5 : Delete Edge 9 -> 3 request completed successfully
+2023-05-19 00:48:12,261 (24300) - received request: D 4 7
+2023-05-19 00:48:12,261 (24300) - received request: A 3 7
+2023-05-19 00:48:12,261 (24300) - Client 5 : Add Edge 10 -> 4 request completed successfully
+2023-05-19 00:48:12,261 (24300) - Client 5 : Delete Edge 4 -> 7 request completed successfully
+2023-05-19 00:48:12,261 (24300) - received request: Q 2 8
+2023-05-19 00:48:12,262 (24301) - Client 5 : Add Edge 3 -> 7 request completed successfully
+2023-05-19 00:48:12,262 (24301) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,446 (24485) - received request: D 8 10
+2023-05-19 00:48:12,446 (24485) - received request: A 1 6
+2023-05-19 00:48:12,446 (24485) - received request: Q 2 3
+2023-05-19 00:48:12,446 (24485) - Client 3 : Delete Edge 8 -> 10 request completed successfully
+2023-05-19 00:48:12,446 (24485) - received request: D 8 2
+2023-05-19 00:48:12,446 (24485) - Client 3 : Add Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:12,447 (24486) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,447 (24486) - received request: A 10 1
+2023-05-19 00:48:12,447 (24486) - Client 3 : Delete Edge 8 -> 2 request completed successfully
+2023-05-19 00:48:12,447 (24486) - received request: Q 6 7
+2023-05-19 00:48:12,447 (24486) - received request: Q 4 3
+2023-05-19 00:48:12,447 (24486) - Client 3 : Add Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:12,447 (24486) - received request: Q 9 10
+2023-05-19 00:48:12,447 (24486) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,448 (24487) - received request: A 1 8
+2023-05-19 00:48:12,448 (24487) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:12,448 (24487) - received request: Q 6 4
+2023-05-19 00:48:12,448 (24487) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:12,448 (24487) - Client 3 : Add Edge 1 -> 8 request completed successfully
+2023-05-19 00:48:12,448 (24487) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:13,783 (25822) - received request: D 1 6
+2023-05-19 00:48:13,783 (25822) - received request: Q 8 2
+2023-05-19 00:48:13,783 (25822) - received request: Q 9 3
+2023-05-19 00:48:13,783 (25822) - received request: D 4 2
+2023-05-19 00:48:13,783 (25822) - Client 2 : Delete Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:13,784 (25823) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:13,784 (25823) - received request: D 3 5
+2023-05-19 00:48:13,784 (25823) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:13,784 (25823) - received request: Q 5 6
+2023-05-19 00:48:13,784 (25823) - Client 2 : Delete Edge 4 -> 2 request completed successfully
+2023-05-19 00:48:13,784 (25823) - Client 2 : Delete Edge 3 -> 5 request completed successfully
+2023-05-19 00:48:13,784 (25823) - received request: Q 5 8
+2023-05-19 00:48:13,784 (25823) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:13,784 (25823) - received request: A 6 4
+2023-05-19 00:48:13,785 (25824) - received request: Q 4 2
+2023-05-19 00:48:13,785 (25824) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:13,785 (25824) - received request: D 8 5
+2023-05-19 00:48:13,785 (25824) - Client 2 : Add Edge 6 -> 4 request completed successfully
+2023-05-19 00:48:13,785 (25824) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:13,785 (25824) - Client 2 : Delete Edge 8 -> 5 request completed successfully
+2023-05-19 00:48:15,754 (27793) - received request: Q 9 8
+2023-05-19 00:48:15,754 (27793) - received request: Q 6 1
+2023-05-19 00:48:15,754 (27793) - received request: A 6 10
+2023-05-19 00:48:15,754 (27793) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:15,755 (27794) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:15,755 (27794) - received request: D 6 9
+2023-05-19 00:48:15,755 (27794) - received request: Q 10 3
+2023-05-19 00:48:15,755 (27794) - Client 4 : Add Edge 6 -> 10 request completed successfully
+2023-05-19 00:48:15,755 (27794) - received request: Q 3 7
+2023-05-19 00:48:15,755 (27794) - Client 4 : Delete Edge 6 -> 9 request completed successfully
+2023-05-19 00:48:15,755 (27794) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:15,755 (27794) - received request: Q 1 3
+2023-05-19 00:48:15,756 (27795) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:15,756 (27795) - received request: D 5 1
+2023-05-19 00:48:15,756 (27795) - received request: Q 2 4
+2023-05-19 00:48:15,756 (27795) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:15,756 (27795) - received request: Q 9 8
+2023-05-19 00:48:15,756 (27795) - Client 4 : Delete Edge 5 -> 1 request completed successfully
+2023-05-19 00:48:15,756 (27795) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:15,756 (27795) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,135 (28174) - received request: Q 4 6
+2023-05-19 00:48:16,135 (28174) - received request: Q 8 1
+2023-05-19 00:48:16,135 (28174) - received request: A 4 1
+2023-05-19 00:48:16,135 (28174) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:16,135 (28174) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:16,135 (28174) - received request: Q 3 4
+2023-05-19 00:48:16,136 (28175) - Client 1 : Add Edge 4 -> 1 request completed successfully
+2023-05-19 00:48:16,136 (28175) - received request: Q 2 6
+2023-05-19 00:48:16,136 (28175) - received request: Q 6 5
+2023-05-19 00:48:16,136 (28175) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:16,136 (28175) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:16,136 (28175) - received request: Q 3 6
+2023-05-19 00:48:16,137 (28176) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,137 (28176) - received request: Q 2 9
+2023-05-19 00:48:16,137 (28176) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,137 (28176) - received request: D 4 1
+2023-05-19 00:48:16,137 (28176) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:16,137 (28176) - received request: Q 2 1
+2023-05-19 00:48:16,137 (28176) - Client 1 : Delete Edge 4 -> 1 request completed successfully
+2023-05-19 00:48:16,138 (28177) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:16,265 (28304) - received request: Q 2 7
+2023-05-19 00:48:16,265 (28304) - received request: Q 9 2
+2023-05-19 00:48:16,265 (28304) - received request: A 8 3
+2023-05-19 00:48:16,266 (28305) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,266 (28305) - received request: Q 6 9
+2023-05-19 00:48:16,266 (28305) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,266 (28305) - received request: Q 8 3
+2023-05-19 00:48:16,266 (28305) - Client 5 : Add Edge 8 -> 3 request completed successfully
+2023-05-19 00:48:16,266 (28305) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,266 (28305) - received request: Q 7 10
+2023-05-19 00:48:16,267 (28306) - received request: A 3 8
+2023-05-19 00:48:16,267 (28306) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:16,267 (28306) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,267 (28306) - received request: A 1 9
+2023-05-19 00:48:16,267 (28306) - received request: Q 2 8
+2023-05-19 00:48:16,267 (28306) - Client 5 : Add Edge 3 -> 8 request completed successfully
+2023-05-19 00:48:16,267 (28306) - received request: D 1 2
+2023-05-19 00:48:16,267 (28306) - Client 5 : Add Edge 1 -> 9 request completed successfully
+2023-05-19 00:48:16,267 (28306) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,268 (28307) - Client 5 : Delete Edge 1 -> 2 request completed successfully
+2023-05-19 00:48:16,452 (28491) - received request: A 2 6
+2023-05-19 00:48:16,452 (28491) - received request: A 3 6
+2023-05-19 00:48:16,452 (28491) - received request: D 9 4
+2023-05-19 00:48:16,452 (28491) - Client 3 : Add Edge 2 -> 6 request completed successfully
+2023-05-19 00:48:16,452 (28491) - received request: Q 1 10
+2023-05-19 00:48:16,453 (28492) - Client 3 : Add Edge 3 -> 6 request completed successfully
+2023-05-19 00:48:16,453 (28492) - Client 3 : Delete Edge 9 -> 4 request completed successfully
+2023-05-19 00:48:16,453 (28492) - received request: Q 3 10
+2023-05-19 00:48:16,453 (28492) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:16,453 (28492) - received request: Q 5 10
+2023-05-19 00:48:16,454 (28493) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:16,454 (28493) - received request: D 10 6
+2023-05-19 00:48:16,454 (28493) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:16,454 (28493) - received request: A 10 1
+2023-05-19 00:48:16,454 (28493) - Client 3 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:16,454 (28493) - received request: Q 5 9
+2023-05-19 00:48:16,455 (28494) - received request: D 4 7
+2023-05-19 00:48:16,455 (28494) - Client 3 : Add Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:16,455 (28494) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:16,455 (28494) - Client 3 : Delete Edge 4 -> 7 request completed successfully
+2023-05-19 00:48:17,791 (29830) - received request: Q 2 6
+2023-05-19 00:48:17,791 (29830) - received request: Q 5 9
+2023-05-19 00:48:17,791 (29830) - received request: Q 5 2
+2023-05-19 00:48:17,791 (29830) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:17,792 (29831) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:17,792 (29831) - received request: Q 4 1
+2023-05-19 00:48:17,792 (29831) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:17,792 (29831) - received request: Q 6 1
+2023-05-19 00:48:17,792 (29831) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:17,792 (29831) - received request: Q 9 1
+2023-05-19 00:48:17,793 (29832) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:17,793 (29832) - received request: Q 4 9
+2023-05-19 00:48:17,793 (29832) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:17,793 (29832) - received request: D 10 4
+2023-05-19 00:48:17,793 (29832) - received request: Q 8 2
+2023-05-19 00:48:17,793 (29832) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:17,793 (29832) - received request: Q 10 5
+2023-05-19 00:48:17,793 (29832) - Client 2 : Delete Edge 10 -> 4 request completed successfully
+2023-05-19 00:48:17,794 (29833) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:17,794 (29833) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:19,761 (31800) - received request: D 9 7
+2023-05-19 00:48:19,761 (31800) - received request: D 1 10
+2023-05-19 00:48:19,761 (31800) - received request: A 7 10
+2023-05-19 00:48:19,761 (31800) - Client 4 : Delete Edge 9 -> 7 request completed successfully
+2023-05-19 00:48:19,762 (31801) - received request: Q 8 2
+2023-05-19 00:48:19,762 (31801) - Client 4 : Delete Edge 1 -> 10 request completed successfully
+2023-05-19 00:48:19,762 (31801) - received request: A 6 10
+2023-05-19 00:48:19,762 (31801) - Client 4 : Add Edge 7 -> 10 request completed successfully
+2023-05-19 00:48:19,762 (31801) - received request: A 5 10
+2023-05-19 00:48:19,762 (31801) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:19,762 (31801) - received request: Q 8 4
+2023-05-19 00:48:19,762 (31801) - Client 4 : Add Edge 6 -> 10 request completed successfully
+2023-05-19 00:48:19,762 (31801) - received request: Q 6 8
+2023-05-19 00:48:19,762 (31801) - Client 4 : Add Edge 5 -> 10 request completed successfully
+2023-05-19 00:48:19,763 (31802) - received request: Q 10 2
+2023-05-19 00:48:19,763 (31802) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:19,763 (31802) - received request: D 6 4
+2023-05-19 00:48:19,763 (31802) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:19,763 (31802) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:19,763 (31802) - Client 4 : Delete Edge 6 -> 4 request completed successfully
+2023-05-19 00:48:20,143 (32182) - received request: Q 3 1
+2023-05-19 00:48:20,143 (32182) - received request: Q 1 9
+2023-05-19 00:48:20,143 (32182) - received request: D 9 6
+2023-05-19 00:48:20,143 (32182) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,143 (32182) - received request: Q 4 8
+2023-05-19 00:48:20,144 (32183) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,144 (32183) - Client 1 : Delete Edge 9 -> 6 request completed successfully
+2023-05-19 00:48:20,144 (32183) - received request: A 2 4
+2023-05-19 00:48:20,144 (32183) - received request: A 9 2
+2023-05-19 00:48:20,144 (32183) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:20,144 (32183) - received request: Q 4 10
+2023-05-19 00:48:20,144 (32183) - Client 1 : Add Edge 2 -> 4 request completed successfully
+2023-05-19 00:48:20,144 (32183) - received request: Q 2 8
+2023-05-19 00:48:20,145 (32184) - Client 1 : Add Edge 9 -> 2 request completed successfully
+2023-05-19 00:48:20,145 (32184) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:20,145 (32184) - received request: A 9 5
+2023-05-19 00:48:20,145 (32184) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:20,145 (32184) - received request: D 10 1
+2023-05-19 00:48:20,145 (32184) - Client 1 : Add Edge 9 -> 5 request completed successfully
+2023-05-19 00:48:20,146 (32185) - Client 1 : Delete Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:20,272 (32311) - received request: Q 2 9
+2023-05-19 00:48:20,272 (32311) - received request: A 9 3
+2023-05-19 00:48:20,272 (32311) - received request: Q 5 1
+2023-05-19 00:48:20,272 (32311) - received request: Q 5 7
+2023-05-19 00:48:20,272 (32311) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,272 (32311) - Client 5 : Add Edge 9 -> 3 request completed successfully
+2023-05-19 00:48:20,272 (32311) - received request: Q 3 6
+2023-05-19 00:48:20,272 (32311) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:20,273 (32312) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:20,273 (32312) - received request: Q 8 7
+2023-05-19 00:48:20,273 (32312) - received request: A 2 10
+2023-05-19 00:48:20,273 (32312) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,273 (32312) - received request: Q 6 4
+2023-05-19 00:48:20,273 (32312) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,273 (32312) - received request: A 10 5
+2023-05-19 00:48:20,273 (32312) - Client 5 : Add Edge 2 -> 10 request completed successfully
+2023-05-19 00:48:20,273 (32312) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:20,273 (32312) - received request: D 10 7
+2023-05-19 00:48:20,274 (32313) - Client 5 : Add Edge 10 -> 5 request completed successfully
+2023-05-19 00:48:20,274 (32313) - Client 5 : Delete Edge 10 -> 7 request completed successfully
+2023-05-19 00:48:20,460 (32499) - received request: A 2 8
+2023-05-19 00:48:20,460 (32499) - received request: Q 8 7
+2023-05-19 00:48:20,460 (32499) - received request: Q 4 2
+2023-05-19 00:48:20,460 (32499) - Client 3 : Add Edge 2 -> 8 request completed successfully
+2023-05-19 00:48:20,461 (32500) - received request: Q 1 4
+2023-05-19 00:48:20,461 (32500) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,461 (32500) - received request: A 10 2
+2023-05-19 00:48:20,461 (32500) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:20,461 (32500) - received request: A 1 7
+2023-05-19 00:48:20,461 (32500) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:20,461 (32500) - received request: A 6 10
+2023-05-19 00:48:20,461 (32500) - Client 3 : Add Edge 10 -> 2 request completed successfully
+2023-05-19 00:48:20,461 (32500) - received request: Q 3 6
+2023-05-19 00:48:20,461 (32500) - Client 3 : Add Edge 1 -> 7 request completed successfully
+2023-05-19 00:48:20,461 (32500) - received request: D 10 3
+2023-05-19 00:48:20,462 (32501) - Client 3 : Add Edge 6 -> 10 request completed successfully
+2023-05-19 00:48:20,462 (32501) - received request: Q 9 7
+2023-05-19 00:48:20,462 (32501) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:20,462 (32501) - Client 3 : Delete Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:20,462 (32501) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,796 (33835) - received request: Q 5 6
+2023-05-19 00:48:21,797 (33836) - received request: Q 8 5
+2023-05-19 00:48:21,797 (33836) - received request: D 4 10
+2023-05-19 00:48:21,797 (33836) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,797 (33836) - received request: A 10 2
+2023-05-19 00:48:21,797 (33836) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:21,797 (33836) - Client 2 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:21,797 (33836) - received request: Q 4 9
+2023-05-19 00:48:21,798 (33837) - received request: Q 3 2
+2023-05-19 00:48:21,798 (33837) - received request: Q 2 7
+2023-05-19 00:48:21,798 (33837) - received request: Q 8 10
+2023-05-19 00:48:21,798 (33837) - received request: D 2 8
+2023-05-19 00:48:21,798 (33837) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,798 (33837) - received request: Q 2 3
+2023-05-19 00:48:21,799 (33838) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,799 (33838) - Client 2 : Delete Edge 2 -> 8 request completed successfully
+2023-05-19 00:48:21,800 (33839) - Client 2 : Add Edge 10 -> 2 request completed successfully
+2023-05-19 00:48:21,800 (33839) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,800 (33839) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:21,800 (33839) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:23,768 (35807) - received request: A 6 8
+2023-05-19 00:48:23,768 (35807) - received request: Q 9 8
+2023-05-19 00:48:23,768 (35807) - received request: D 4 3
+2023-05-19 00:48:23,768 (35807) - Client 4 : Add Edge 6 -> 8 request completed successfully
+2023-05-19 00:48:23,768 (35807) - received request: Q 8 3
+2023-05-19 00:48:23,769 (35808) - received request: D 10 6
+2023-05-19 00:48:23,769 (35808) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:23,769 (35808) - Client 4 : Delete Edge 4 -> 3 request completed successfully
+2023-05-19 00:48:23,769 (35808) - received request: A 2 7
+2023-05-19 00:48:23,769 (35808) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:23,769 (35808) - received request: Q 10 4
+2023-05-19 00:48:23,769 (35808) - Client 4 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:23,769 (35808) - Client 4 : Add Edge 2 -> 7 request completed successfully
+2023-05-19 00:48:23,769 (35808) - received request: A 1 8
+2023-05-19 00:48:23,769 (35808) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:23,769 (35808) - received request: Q 7 9
+2023-05-19 00:48:23,770 (35809) - received request: Q 10 3
+2023-05-19 00:48:23,770 (35809) - Client 4 : Add Edge 1 -> 8 request completed successfully
+2023-05-19 00:48:23,770 (35809) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:23,770 (35809) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,149 (36188) - received request: A 1 8
+2023-05-19 00:48:24,150 (36189) - received request: Q 7 8
+2023-05-19 00:48:24,150 (36189) - received request: Q 5 2
+2023-05-19 00:48:24,150 (36189) - Client 1 : Add Edge 1 -> 8 request completed successfully
+2023-05-19 00:48:24,150 (36189) - received request: Q 4 7
+2023-05-19 00:48:24,150 (36189) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,150 (36189) - received request: D 4 3
+2023-05-19 00:48:24,150 (36189) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,151 (36190) - received request: Q 7 5
+2023-05-19 00:48:24,151 (36190) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:24,151 (36190) - Client 1 : Delete Edge 4 -> 3 request completed successfully
+2023-05-19 00:48:24,151 (36190) - received request: D 1 9
+2023-05-19 00:48:24,151 (36190) - received request: Q 1 9
+2023-05-19 00:48:24,151 (36190) - received request: D 9 7
+2023-05-19 00:48:24,151 (36190) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,151 (36190) - Client 1 : Delete Edge 1 -> 9 request completed successfully
+2023-05-19 00:48:24,151 (36190) - received request: A 8 4
+2023-05-19 00:48:24,151 (36190) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,152 (36191) - Client 1 : Delete Edge 9 -> 7 request completed successfully
+2023-05-19 00:48:24,152 (36191) - Client 1 : Add Edge 8 -> 4 request completed successfully
+2023-05-19 00:48:24,277 (36316) - received request: D 8 9
+2023-05-19 00:48:24,277 (36316) - received request: D 3 10
+2023-05-19 00:48:24,277 (36316) - received request: D 6 10
+2023-05-19 00:48:24,277 (36316) - Client 5 : Delete Edge 8 -> 9 request completed successfully
+2023-05-19 00:48:24,277 (36316) - received request: A 4 6
+2023-05-19 00:48:24,277 (36316) - Client 5 : Delete Edge 3 -> 10 request completed successfully
+2023-05-19 00:48:24,277 (36316) - received request: A 5 10
+2023-05-19 00:48:24,278 (36317) - Client 5 : Delete Edge 6 -> 10 request completed successfully
+2023-05-19 00:48:24,278 (36317) - received request: A 10 5
+2023-05-19 00:48:24,278 (36317) - Client 5 : Add Edge 4 -> 6 request completed successfully
+2023-05-19 00:48:24,278 (36317) - received request: Q 9 2
+2023-05-19 00:48:24,278 (36317) - Client 5 : Add Edge 5 -> 10 request completed successfully
+2023-05-19 00:48:24,278 (36317) - received request: A 1 9
+2023-05-19 00:48:24,278 (36317) - Client 5 : Add Edge 10 -> 5 request completed successfully
+2023-05-19 00:48:24,278 (36317) - received request: A 10 3
+2023-05-19 00:48:24,278 (36317) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:24,278 (36317) - received request: Q 3 5
+2023-05-19 00:48:24,279 (36318) - Client 5 : Add Edge 1 -> 9 request completed successfully
+2023-05-19 00:48:24,279 (36318) - Client 5 : Add Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:24,279 (36318) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,465 (36504) - received request: D 9 6
+2023-05-19 00:48:24,465 (36504) - received request: A 3 7
+2023-05-19 00:48:24,465 (36504) - received request: Q 6 4
+2023-05-19 00:48:24,465 (36504) - Client 3 : Delete Edge 9 -> 6 request completed successfully
+2023-05-19 00:48:24,466 (36505) - Client 3 : Add Edge 3 -> 7 request completed successfully
+2023-05-19 00:48:24,466 (36505) - received request: Q 5 9
+2023-05-19 00:48:24,466 (36505) - received request: Q 5 9
+2023-05-19 00:48:24,466 (36505) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,466 (36505) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:24,466 (36505) - received request: Q 1 10
+2023-05-19 00:48:24,466 (36505) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:24,467 (36506) - received request: A 3 5
+2023-05-19 00:48:24,467 (36506) - received request: Q 9 7
+2023-05-19 00:48:24,467 (36506) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,467 (36506) - received request: Q 1 6
+2023-05-19 00:48:24,467 (36506) - Client 3 : Add Edge 3 -> 5 request completed successfully
+2023-05-19 00:48:24,467 (36506) - received request: Q 5 7
+2023-05-19 00:48:24,467 (36506) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,467 (36506) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:24,468 (36507) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:25,803 (37842) - received request: D 4 10
+2023-05-19 00:48:25,804 (37843) - received request: D 10 6
+2023-05-19 00:48:25,804 (37843) - received request: Q 1 9
+2023-05-19 00:48:25,804 (37843) - Client 2 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:25,804 (37843) - received request: D 10 4
+2023-05-19 00:48:25,804 (37843) - Client 2 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:25,804 (37843) - received request: D 4 7
+2023-05-19 00:48:25,804 (37843) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:25,804 (37843) - received request: Q 5 7
+2023-05-19 00:48:25,804 (37843) - Client 2 : Delete Edge 10 -> 4 request completed successfully
+2023-05-19 00:48:25,804 (37843) - received request: A 2 3
+2023-05-19 00:48:25,805 (37844) - Client 2 : Delete Edge 4 -> 7 request completed successfully
+2023-05-19 00:48:25,805 (37844) - received request: Q 10 2
+2023-05-19 00:48:25,805 (37844) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:25,805 (37844) - received request: D 10 5
+2023-05-19 00:48:25,805 (37844) - Client 2 : Add Edge 2 -> 3 request completed successfully
+2023-05-19 00:48:25,805 (37844) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:25,805 (37844) - received request: A 1 2
+2023-05-19 00:48:25,805 (37844) - Client 2 : Delete Edge 10 -> 5 request completed successfully
+2023-05-19 00:48:25,806 (37845) - Client 2 : Add Edge 1 -> 2 request completed successfully
+2023-05-19 00:48:27,776 (39815) - received request: D 8 1
+2023-05-19 00:48:27,776 (39815) - received request: Q 6 9
+2023-05-19 00:48:27,776 (39815) - received request: D 9 5
+2023-05-19 00:48:27,776 (39815) - received request: D 4 8
+2023-05-19 00:48:27,776 (39815) - Client 4 : Delete Edge 8 -> 1 request completed successfully
+2023-05-19 00:48:27,776 (39815) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:27,776 (39815) - received request: Q 9 6
+2023-05-19 00:48:27,776 (39815) - Client 4 : Delete Edge 9 -> 5 request completed successfully
+2023-05-19 00:48:27,777 (39816) - Client 4 : Delete Edge 4 -> 8 request completed successfully
+2023-05-19 00:48:27,777 (39816) - received request: D 1 6
+2023-05-19 00:48:27,777 (39816) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:27,777 (39816) - received request: Q 9 1
+2023-05-19 00:48:27,777 (39816) - received request: A 3 5
+2023-05-19 00:48:27,777 (39816) - Client 4 : Delete Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:27,778 (39817) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:27,778 (39817) - received request: Q 5 2
+2023-05-19 00:48:27,778 (39817) - received request: D 3 10
+2023-05-19 00:48:27,778 (39817) - Client 4 : Add Edge 3 -> 5 request completed successfully
+2023-05-19 00:48:27,778 (39817) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:27,778 (39817) - Client 4 : Delete Edge 3 -> 10 request completed successfully
+2023-05-19 00:48:28,155 (40194) - received request: D 9 6
+2023-05-19 00:48:28,155 (40194) - received request: A 1 6
+2023-05-19 00:48:28,155 (40194) - received request: Q 6 10
+2023-05-19 00:48:28,155 (40194) - received request: Q 2 7
+2023-05-19 00:48:28,155 (40194) - Client 1 : Delete Edge 9 -> 6 request completed successfully
+2023-05-19 00:48:28,155 (40194) - Client 1 : Add Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:28,155 (40194) - received request: Q 4 5
+2023-05-19 00:48:28,156 (40195) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:28,156 (40195) - received request: Q 8 2
+2023-05-19 00:48:28,156 (40195) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:28,156 (40195) - received request: Q 7 8
+2023-05-19 00:48:28,156 (40195) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:28,156 (40195) - received request: D 5 6
+2023-05-19 00:48:28,156 (40195) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,156 (40195) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,156 (40195) - received request: Q 10 5
+2023-05-19 00:48:28,157 (40196) - received request: D 7 2
+2023-05-19 00:48:28,157 (40196) - Client 1 : Delete Edge 5 -> 6 request completed successfully
+2023-05-19 00:48:28,157 (40196) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,157 (40196) - Client 1 : Delete Edge 7 -> 2 request completed successfully
+2023-05-19 00:48:28,283 (40322) - received request: D 6 4
+2023-05-19 00:48:28,283 (40322) - received request: Q 9 10
+2023-05-19 00:48:28,283 (40322) - received request: A 7 8
+2023-05-19 00:48:28,283 (40322) - received request: A 2 1
+2023-05-19 00:48:28,283 (40322) - Client 5 : Delete Edge 6 -> 4 request completed successfully
+2023-05-19 00:48:28,283 (40322) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,284 (40323) - received request: D 10 6
+2023-05-19 00:48:28,284 (40323) - Client 5 : Add Edge 7 -> 8 request completed successfully
+2023-05-19 00:48:28,284 (40323) - received request: Q 2 1
+2023-05-19 00:48:28,284 (40323) - Client 5 : Add Edge 2 -> 1 request completed successfully
+2023-05-19 00:48:28,284 (40323) - received request: Q 3 2
+2023-05-19 00:48:28,284 (40323) - Client 5 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:28,284 (40323) - received request: D 10 3
+2023-05-19 00:48:28,284 (40323) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:28,284 (40323) - received request: A 6 4
+2023-05-19 00:48:28,285 (40324) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,285 (40324) - received request: A 2 8
+2023-05-19 00:48:28,285 (40324) - Client 5 : Delete Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:28,285 (40324) - Client 5 : Add Edge 6 -> 4 request completed successfully
+2023-05-19 00:48:28,285 (40324) - Client 5 : Add Edge 2 -> 8 request completed successfully
+2023-05-19 00:48:28,472 (40511) - received request: A 8 2
+2023-05-19 00:48:28,472 (40511) - received request: A 3 8
+2023-05-19 00:48:28,472 (40511) - received request: D 4 9
+2023-05-19 00:48:28,472 (40511) - received request: A 2 9
+2023-05-19 00:48:28,472 (40511) - Client 3 : Add Edge 8 -> 2 request completed successfully
+2023-05-19 00:48:28,472 (40511) - received request: D 3 8
+2023-05-19 00:48:28,472 (40511) - Client 3 : Add Edge 3 -> 8 request completed successfully
+2023-05-19 00:48:28,472 (40511) - Client 3 : Delete Edge 4 -> 9 request completed successfully
+2023-05-19 00:48:28,472 (40511) - received request: D 10 3
+2023-05-19 00:48:28,473 (40512) - Client 3 : Add Edge 2 -> 9 request completed successfully
+2023-05-19 00:48:28,473 (40512) - Client 3 : Delete Edge 3 -> 8 request completed successfully
+2023-05-19 00:48:28,473 (40512) - received request: Q 3 10
+2023-05-19 00:48:28,473 (40512) - received request: A 7 6
+2023-05-19 00:48:28,473 (40512) - Client 3 : Delete Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:28,473 (40512) - received request: D 7 4
+2023-05-19 00:48:28,473 (40512) - received request: Q 10 7
+2023-05-19 00:48:28,473 (40512) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:28,474 (40513) - Client 3 : Add Edge 7 -> 6 request completed successfully
+2023-05-19 00:48:28,474 (40513) - Client 3 : Delete Edge 7 -> 4 request completed successfully
+2023-05-19 00:48:28,474 (40513) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:29,811 (41850) - received request: Q 8 3
+2023-05-19 00:48:29,812 (41851) - received request: Q 3 10
+2023-05-19 00:48:29,812 (41851) - received request: Q 6 8
+2023-05-19 00:48:29,812 (41851) - received request: D 8 3
+2023-05-19 00:48:29,812 (41851) - received request: A 2 3
+2023-05-19 00:48:29,812 (41851) - received request: D 5 8
+2023-05-19 00:48:29,813 (41852) - received request: Q 10 1
+2023-05-19 00:48:29,813 (41852) - received request: A 8 5
+2023-05-19 00:48:29,813 (41852) - received request: Q 4 8
+2023-05-19 00:48:29,813 (41852) - received request: D 6 5
+2023-05-19 00:48:29,828 (41867) - Client 2 : Delete Edge 8 -> 3 request completed successfully
+2023-05-19 00:48:29,828 (41867) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:29,832 (41871) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:29,833 (41872) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:29,833 (41872) - Client 2 : Add Edge 8 -> 5 request completed successfully
+2023-05-19 00:48:29,833 (41872) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:29,837 (41876) - Client 2 : Add Edge 2 -> 3 request completed successfully
+2023-05-19 00:48:29,841 (41880) - Client 2 : Delete Edge 5 -> 8 request completed successfully
+2023-05-19 00:48:29,846 (41885) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:29,885 (41924) - Client 2 : Delete Edge 6 -> 5 request completed successfully
+2023-05-19 00:48:31,782 (43821) - received request: Q 7 1
+2023-05-19 00:48:31,782 (43821) - received request: D 8 1
+2023-05-19 00:48:31,782 (43821) - received request: Q 5 8
+2023-05-19 00:48:31,782 (43821) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:31,782 (43821) - received request: D 2 10
+2023-05-19 00:48:31,782 (43821) - Client 4 : Delete Edge 8 -> 1 request completed successfully
+2023-05-19 00:48:31,782 (43821) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:31,783 (43822) - received request: Q 1 3
+2023-05-19 00:48:31,783 (43822) - received request: Q 9 6
+2023-05-19 00:48:31,783 (43822) - Client 4 : Delete Edge 2 -> 10 request completed successfully
+2023-05-19 00:48:31,783 (43822) - received request: Q 7 8
+2023-05-19 00:48:31,783 (43822) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:31,783 (43822) - received request: D 4 9
+2023-05-19 00:48:31,783 (43822) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:31,783 (43822) - received request: Q 4 9
+2023-05-19 00:48:31,783 (43822) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:31,783 (43822) - received request: D 9 4
+2023-05-19 00:48:31,783 (43822) - Client 4 : Delete Edge 4 -> 9 request completed successfully
+2023-05-19 00:48:31,788 (43827) - Client 4 : Delete Edge 9 -> 4 request completed successfully
+2023-05-19 00:48:31,788 (43827) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:32,289 (44328) - received request: A 10 8
+2023-05-19 00:48:32,289 (44328) - received request: A 5 2
+2023-05-19 00:48:32,289 (44328) - received request: A 9 4
+2023-05-19 00:48:32,289 (44328) - Client 5 : Add Edge 10 -> 8 request completed successfully
+2023-05-19 00:48:32,289 (44328) - received request: Q 8 2
+2023-05-19 00:48:32,290 (44329) - Client 5 : Add Edge 5 -> 2 request completed successfully
+2023-05-19 00:48:32,290 (44329) - received request: D 4 10
+2023-05-19 00:48:32,290 (44329) - Client 5 : Add Edge 9 -> 4 request completed successfully
+2023-05-19 00:48:32,290 (44329) - received request: Q 2 8
+2023-05-19 00:48:32,290 (44329) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:32,290 (44329) - received request: Q 4 7
+2023-05-19 00:48:32,290 (44329) - Client 5 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:32,290 (44329) - received request: D 8 6
+2023-05-19 00:48:32,290 (44329) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:32,290 (44329) - received request: Q 6 9
+2023-05-19 00:48:32,290 (44329) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:32,291 (44330) - received request: Q 3 10
+2023-05-19 00:48:32,291 (44330) - Client 5 : Delete Edge 8 -> 6 request completed successfully
+2023-05-19 00:48:32,291 (44330) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:32,291 (44330) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:32,477 (44516) - received request: D 3 9
+2023-05-19 00:48:32,477 (44516) - received request: Q 10 2
+2023-05-19 00:48:32,477 (44516) - received request: Q 5 3
+2023-05-19 00:48:32,477 (44516) - Client 3 : Delete Edge 3 -> 9 request completed successfully
+2023-05-19 00:48:32,477 (44516) - received request: Q 1 3
+2023-05-19 00:48:32,477 (44516) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:32,478 (44517) - received request: D 8 5
+2023-05-19 00:48:32,478 (44517) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:32,478 (44517) - received request: Q 9 7
+2023-05-19 00:48:32,478 (44517) - received request: Q 9 10
+2023-05-19 00:48:32,478 (44517) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:32,478 (44517) - Client 3 : Delete Edge 8 -> 5 request completed successfully
+2023-05-19 00:48:32,478 (44517) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:32,478 (44517) - received request: D 4 10
+2023-05-19 00:48:32,478 (44517) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:32,478 (44517) - received request: D 9 1
+2023-05-19 00:48:32,479 (44518) - Client 3 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:32,479 (44518) - received request: Q 5 7
+2023-05-19 00:48:32,479 (44518) - Client 3 : Delete Edge 9 -> 1 request completed successfully
+2023-05-19 00:48:32,479 (44518) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:35,793 (47832) - received request: D 7 6
+2023-05-19 00:48:35,793 (47832) - received request: Q 7 1
+2023-05-19 00:48:35,793 (47832) - received request: Q 3 9
+2023-05-19 00:48:35,793 (47832) - received request: Q 3 4
+2023-05-19 00:48:35,793 (47832) - Client 4 : Delete Edge 7 -> 6 request completed successfully
+2023-05-19 00:48:35,793 (47832) - received request: D 2 3
+2023-05-19 00:48:35,794 (47833) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:35,794 (47833) - received request: A 2 3
+2023-05-19 00:48:35,794 (47833) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:35,794 (47833) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:35,794 (47833) - received request: Q 9 8
+2023-05-19 00:48:35,794 (47833) - Client 4 : Delete Edge 2 -> 3 request completed successfully
+2023-05-19 00:48:35,794 (47833) - received request: Q 4 7
+2023-05-19 00:48:35,794 (47833) - Client 4 : Add Edge 2 -> 3 request completed successfully
+2023-05-19 00:48:35,794 (47833) - received request: D 10 3
+2023-05-19 00:48:35,794 (47833) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:35,794 (47833) - received request: Q 9 5
+2023-05-19 00:48:35,794 (47833) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:35,795 (47834) - Client 4 : Delete Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:35,795 (47834) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:36,295 (48334) - received request: Q 3 9
+2023-05-19 00:48:36,295 (48334) - received request: A 2 4
+2023-05-19 00:48:36,295 (48334) - received request: D 1 8
+2023-05-19 00:48:36,295 (48334) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:36,295 (48334) - received request: A 3 1
+2023-05-19 00:48:36,295 (48334) - Client 5 : Add Edge 2 -> 4 request completed successfully
+2023-05-19 00:48:36,295 (48334) - received request: D 10 6
+2023-05-19 00:48:36,296 (48335) - Client 5 : Delete Edge 1 -> 8 request completed successfully
+2023-05-19 00:48:36,296 (48335) - received request: Q 2 8
+2023-05-19 00:48:36,296 (48335) - Client 5 : Add Edge 3 -> 1 request completed successfully
+2023-05-19 00:48:36,296 (48335) - received request: Q 5 10
+2023-05-19 00:48:36,296 (48335) - Client 5 : Delete Edge 10 -> 6 request completed successfully
+2023-05-19 00:48:36,296 (48335) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:36,296 (48335) - received request: Q 4 3
+2023-05-19 00:48:36,296 (48335) - received request: Q 9 3
+2023-05-19 00:48:36,296 (48335) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:36,296 (48335) - received request: Q 10 9
+2023-05-19 00:48:36,296 (48335) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:36,297 (48336) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:36,297 (48336) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:39,798 (51837) - received request: A 6 1
+2023-05-19 00:48:39,798 (51837) - received request: Q 9 4
+2023-05-19 00:48:39,798 (51837) - received request: D 1 6
+2023-05-19 00:48:39,798 (51837) - Client 4 : Add Edge 6 -> 1 request completed successfully
+2023-05-19 00:48:39,798 (51837) - received request: Q 4 3
+2023-05-19 00:48:39,798 (51837) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:39,798 (51837) - received request: Q 7 6
+2023-05-19 00:48:39,798 (51837) - Client 4 : Delete Edge 1 -> 6 request completed successfully
+2023-05-19 00:48:39,799 (51838) - received request: D 8 5
+2023-05-19 00:48:39,799 (51838) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:39,799 (51838) - received request: D 3 2
+2023-05-19 00:48:39,799 (51838) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:39,799 (51838) - received request: D 7 2
+2023-05-19 00:48:39,799 (51838) - Client 4 : Delete Edge 8 -> 5 request completed successfully
+2023-05-19 00:48:39,799 (51838) - Client 4 : Delete Edge 3 -> 2 request completed successfully
+2023-05-19 00:48:39,799 (51838) - received request: Q 1 10
+2023-05-19 00:48:39,799 (51838) - received request: Q 5 10
+2023-05-19 00:48:39,799 (51838) - Client 4 : Delete Edge 7 -> 2 request completed successfully
+2023-05-19 00:48:39,800 (51839) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:39,800 (51839) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:40,300 (52339) - received request: Q 6 2
+2023-05-19 00:48:40,300 (52339) - received request: Q 1 9
+2023-05-19 00:48:40,300 (52339) - received request: D 5 4
+2023-05-19 00:48:40,300 (52339) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:40,300 (52339) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:40,300 (52339) - received request: D 6 2
+2023-05-19 00:48:40,301 (52340) - Client 5 : Delete Edge 5 -> 4 request completed successfully
+2023-05-19 00:48:40,301 (52340) - received request: Q 3 10
+2023-05-19 00:48:40,301 (52340) - Client 5 : Delete Edge 6 -> 2 request completed successfully
+2023-05-19 00:48:40,301 (52340) - received request: Q 4 6
+2023-05-19 00:48:40,301 (52340) - received request: Q 7 2
+2023-05-19 00:48:40,301 (52340) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:40,301 (52340) - received request: Q 4 1
+2023-05-19 00:48:40,301 (52340) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:40,301 (52340) - received request: A 10 8
+2023-05-19 00:48:40,301 (52340) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:40,302 (52341) - received request: Q 5 4
+2023-05-19 00:48:40,302 (52341) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:40,302 (52341) - Client 5 : Add Edge 10 -> 8 request completed successfully
+2023-05-19 00:48:40,302 (52341) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:43,804 (55843) - received request: Q 7 2
+2023-05-19 00:48:43,804 (55843) - received request: Q 1 9
+2023-05-19 00:48:43,804 (55843) - received request: A 8 7
+2023-05-19 00:48:43,804 (55843) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:43,804 (55843) - received request: A 2 1
+2023-05-19 00:48:43,804 (55843) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:43,804 (55843) - received request: Q 2 7
+2023-05-19 00:48:43,804 (55843) - Client 4 : Add Edge 8 -> 7 request completed successfully
+2023-05-19 00:48:43,804 (55843) - Client 4 : Add Edge 2 -> 1 request completed successfully
+2023-05-19 00:48:43,804 (55843) - received request: Q 5 9
+2023-05-19 00:48:43,805 (55844) - received request: Q 9 2
+2023-05-19 00:48:43,805 (55844) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:43,805 (55844) - received request: D 10 1
+2023-05-19 00:48:43,805 (55844) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:43,805 (55844) - received request: D 4 10
+2023-05-19 00:48:43,805 (55844) - Shortest Path request completed successfully, returning response: 1
+2023-05-19 00:48:43,805 (55844) - received request: D 8 3
+2023-05-19 00:48:43,805 (55844) - Client 4 : Delete Edge 10 -> 1 request completed successfully
+2023-05-19 00:48:43,805 (55844) - Client 4 : Delete Edge 4 -> 10 request completed successfully
+2023-05-19 00:48:43,805 (55844) - Client 4 : Delete Edge 8 -> 3 request completed successfully
+2023-05-19 00:48:44,306 (56345) - received request: Q 6 7
+2023-05-19 00:48:44,306 (56345) - received request: D 4 8
+2023-05-19 00:48:44,306 (56345) - received request: D 10 3
+2023-05-19 00:48:44,306 (56345) - received request: D 6 10
+2023-05-19 00:48:44,306 (56345) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:44,307 (56346) - Client 5 : Delete Edge 4 -> 8 request completed successfully
+2023-05-19 00:48:44,307 (56346) - received request: Q 4 2
+2023-05-19 00:48:44,307 (56346) - Client 5 : Delete Edge 10 -> 3 request completed successfully
+2023-05-19 00:48:44,307 (56346) - Client 5 : Delete Edge 6 -> 10 request completed successfully
+2023-05-19 00:48:44,307 (56346) - received request: Q 9 8
+2023-05-19 00:48:44,307 (56346) - received request: Q 7 6
+2023-05-19 00:48:44,307 (56346) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:44,307 (56346) - received request: D 7 3
+2023-05-19 00:48:44,307 (56346) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:44,307 (56346) - received request: Q 9 7
+2023-05-19 00:48:44,308 (56347) - Shortest Path request completed successfully, returning response: 3
+2023-05-19 00:48:44,308 (56347) - received request: Q 7 2
+2023-05-19 00:48:44,308 (56347) - Client 5 : Delete Edge 7 -> 3 request completed successfully
+2023-05-19 00:48:44,308 (56347) - Shortest Path request completed successfully, returning response: 2
+2023-05-19 00:48:44,308 (56347) - Shortest Path request completed successfully, returning response: 2

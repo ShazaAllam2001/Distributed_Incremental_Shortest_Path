@@ -53,8 +53,8 @@ public class Graph implements GraphI {
 
     @Override
     public int findShortestPath(String source, String destination) {
-        return BDS(source, destination);
-        //return BFS(source, destination
+        return BFS(source, destination);
+        //return BDS(source, destination);
     }
 
     private int BFS(String source, String destination) {

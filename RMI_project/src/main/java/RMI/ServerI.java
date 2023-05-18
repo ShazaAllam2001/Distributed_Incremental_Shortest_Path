@@ -12,5 +12,7 @@ public interface ServerI extends Remote {
 
     String buildGraph(Queue<String> lines, int clientID) throws RemoteException;
 
-    List<String> processBatch(Queue<String> lines, int clientID) throws RemoteException;
+    List<String> processBatchUnparalleled(Queue<String> lines, int clientID) throws RemoteException;
+
+    List<String> processBatch(Queue<String> lines, int clientID) throws RemoteException, InterruptedException;
 }
