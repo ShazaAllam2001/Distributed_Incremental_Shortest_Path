@@ -5,11 +5,6 @@ public class Graph implements GraphI {
     private HashMap<String, Node> nodes = new HashMap<>();
 
     @Override
-    public int getNumberOfNodes() {
-        return nodes.size();
-    }
-
-    @Override
     public void addEdge(String source, String destination) {
         Node node = new Node();
         // put source node on hash map
